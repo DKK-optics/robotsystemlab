@@ -9,15 +9,11 @@ const FooterSection = styled.footer`
   border-top: 1px solid #222;
 `;
 
-const FooterContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-  }
+const FooterContainer = styled.footer`
+  padding: 40px 0;
+  background: var(--background-dark1);
+  text-align: center;
+  margin-top: 100px;
 `;
 
 const ContactInfo = styled.div`

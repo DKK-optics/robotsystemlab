@@ -8,6 +8,7 @@ import Professor from './components/Professor';
 import Members from './components/Members';
 import Location from './components/Location';
 import Footer from './components/Footer';
+import AnimatedSection from './components/AnimatedSection';
 
 function App() {
   return (
@@ -16,11 +17,15 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Research />
+        <AnimatedSection>
+          <About />
+        </AnimatedSection>
+        <Research /> {/* AnimatedSection 제거 */}
         <Professor />
-        <Members />
-        <Location />
+        <Members /> {/* AnimatedSection 제거 */}
+        <AnimatedSection>
+          <Location />
+        </AnimatedSection>
       </main>
       <Footer />
     </>

@@ -2,27 +2,43 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 const fadeIn = keyframes`
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 `;
 
 const HeroSection = styled.section`
   height: 100vh;
-  background: var(--background-dark1);
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/space.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+`;
+
+const ContentContainer = styled.div`
+  /* GlobalStyle의 .container와 동일한 규칙 적용 */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  
+  /* 내부 요소를 Flexbox로 제어 */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const HeroContent = styled.div`
+  /* HeroContent가 남는 공간을 차지하지 않도록 설정 */
+  flex-shrink: 0; 
   max-width: 800px;
+  text-align: center;
   
   h5 {
     font-size: 1.2rem;
@@ -33,8 +49,11 @@ const HeroContent = styled.div`
   }
 
   h1 {
+    font-family: 'Cascadia Code', monospace;
     font-size: clamp(3rem, 10vw, 5.5rem);
-    font-weight: 800;
+    font-weight: 400; /* 폰트 두께를 얇게 조정 (기본값보다 낮춤) */
+    letter-spacing: 8px; /* 글자 간격을 더 넓게 조정 */
+    white-space: nowrap; /* 줄바꿈 방지 */
     line-height: 1.1;
     margin: 20px 0;
     color: var(--primary-color);
@@ -51,11 +70,16 @@ const HeroContent = styled.div`
   }
 `;
 
+const Spacer = styled.div`
+  /* HeroContent와 ScrollIndicator 사이의 공간을 채움 */
+  flex-grow: 1;
+`;
+
 const ScrollIndicator = styled.div`
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
+  /* position: absolute 제거 */
+  flex-shrink: 0; /* 크기가 줄어들지 않도록 */
+  padding-bottom: 30px; /* 하단 여백 */
+
   color: var(--primary-color);
   font-size: 0.9rem;
   letter-spacing: 1px;
@@ -83,17 +107,19 @@ const ScrollIndicator = styled.div`
 function Hero() {
   return (
     <HeroSection id="home">
-      <HeroContent>
-        <h5>Dongyeun Lee</h5>
-        <h1>
-          Robot system lab
-        </h1>
-        <p>하중을 이해하는 힘, 산업을 이끄는 기술</p>
-      </HeroContent>
-      <ScrollIndicator>
-        SCROLL
-        <span />
-      </ScrollIndicator>
+      <ContentContainer>
+        <Spacer /> {/* 상단 공간을 채우는 스페이서 */}
+        <HeroContent>
+          <h5>Dongyeun Lee</h5>
+          <h1>Robot system lab</h1>
+          <p>FEM을 이해하는 힘, 산업을 이끄는 기술</p>
+        </HeroContent>
+        <Spacer /> {/* 하단 공간을 채우는 스페이서 */}
+        <ScrollIndicator>
+          SCROLL
+          <span />
+        </ScrollIndicator>
+      </ContentContainer>
     </HeroSection>
   );
 }

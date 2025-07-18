@@ -3,9 +3,10 @@ import styled from 'styled-components';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const ProfessorSection = styled(motion.section)`
-  background: var(--background-dark1);
-  height: 150vh; /* 스크롤 높이 단축 */
+  padding: 120px 0;
+  overflow: hidden;
   position: relative;
+  background: transparent;
 `;
 
 const StickyContainer = styled.div`
@@ -36,6 +37,19 @@ const ImageWrapper = styled(motion.div)`
   }
 `;
 
+const Name = styled.h3`
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 5px; /* 이름과 직책 사이 간격 */
+`;
+
+const Title = styled.p`
+  font-size: 1rem;
+  color: var(--text-color-muted);
+  margin: 0;
+  padding: 0;
+`;
+
 const TextWrapper = styled(motion.div)`
   position: absolute;
   width: 40%;
@@ -44,6 +58,7 @@ const TextWrapper = styled(motion.div)`
   h3 {
     font-size: 2.5rem;
     color: var(--primary-color);
+    margin-bottom: 5px; /* 이름과 직책 사이 간격 */
   }
 
   p {
@@ -82,6 +97,27 @@ const InfoList = styled.ul`
   }
 `;
 
+const MajorFieldList = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  
+  li {
+    margin-bottom: 8px;
+    color: var(--text-color);
+  }
+`;
+
+const ContentWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: var(--background-dark2);
+  border-radius: 8px;
+`;
+
 function Professor() {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -105,21 +141,19 @@ function Professor() {
             <img src="/images/image5.jpeg" alt="Dongyeun Lee 교수" />
           </ImageWrapper>
           <TextWrapper style={{ x: textX, opacity: textOpacity }}>
-            <h3>Dongyeun Lee</h3>
-            <p>
-              로봇 시스템 및 제어 분야의 전문가로서, 다년간의 연구 경험과 산업 협력 프로젝트를 통해 얻은 지식을 바탕으로 학생들을 지도하고 있습니다. 주요 연구 관심사는 지능형 로봇, 인간-로봇 상호작용, 그리고 자동화 시스템입니다.
-            </p>
+            <h3>Dong-Yeon Lee</h3>
+            <p style={{fontSize: '1rem', marginTop: '0', marginBottom: '15px', color: 'var(--text-color-muted)'}}>Ph. D., Professor</p>
             <InfoList>
               <li><strong>소속</strong> <span>로봇공학과</span></li>
-              <li><strong>전공분야</strong> <span>나노시스템</span></li>
               <li><strong>연구실</strong> <span>로봇관 (301호)</span></li>
               <li><strong>전화</strong> <span>053-810-2461</span></li>
             </InfoList>
-            <ul>
-              <li>- Ph.D. in Mechanical Engineering, KAIST</li>
-              <li>- M.S. in Mechanical Engineering, KAIST</li>
-              <li>- B.S. in Mechanical Engineering, Korea University</li>
-            </ul>
+            <MajorFieldList>
+              <li><strong>§ Major Field:</strong></li>
+              <li>　- Nano-Design, Measurement and Control</li>
+              <li>　- Nano-Opto-Mechatronics</li>
+              <li>　- Atomic Force Microscope, Nano-Lithographic Machine</li>
+            </MajorFieldList>
           </TextWrapper>
         </ProfessorContainer>
       </StickyContainer>

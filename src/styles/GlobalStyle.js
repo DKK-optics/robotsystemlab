@@ -2,11 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary-color: #ffffff; // 변경: 강조색을 흰색으로
-    --background-dark1: #0a0a0a;
-    --background-dark2: #141414;
-    --text-color: #e0e0e0;
-    --text-color-muted: #888888;
+    --primary-color: #ffffff; // 강조색: 흰색
+    --background-dark1: #000000; // 메인 배경: 검은색
+    --background-dark2: #1a1a1a; // 보조 배경: 어두운 회색
+    --text-color: #e0e0e0; // 메인 텍스트: 밝은 회색
+    --text-color-muted: #888888; // 보조 텍스트: 회색
     --font-main: 'Poppins', 'Noto Sans KR', sans-serif;
   }
 
@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--background-dark1);
+    background-color: var(--background-dark1);
     color: var(--text-color);
     font-family: var(--font-main);
     -webkit-font-smoothing: antialiased;
@@ -47,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 100px 0;
     position: relative;
     overflow: hidden;
+    background-color: transparent; 
   }
 `;
 

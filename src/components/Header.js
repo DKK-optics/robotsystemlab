@@ -7,56 +7,48 @@ const HeaderContainer = styled.header`
   left: 0;
   width: 100%;
   padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: 1000;
-  transition: background-color 0.4s ease, backdrop-filter 0.4s ease;
+  transition: all 0.3s ease-in-out;
+  background: ${({ scrolled }) => (scrolled ? 'rgba(0, 0, 0, 0.5)' : 'transparent')};
+  backdrop-filter: ${({ scrolled }) => (scrolled ? 'blur(10px)' : 'none')};
 
-  &.scrolled {
-    background-color: rgba(10, 10, 10, 0.7);
-    backdrop-filter: blur(10px);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 `;
 
 const Logo = styled.a`
-  img {
-    height: 40px;
-    transition: transform 0.3s ease;
-  }
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-decoration: none;
 
-  &:hover img {
-    transform: scale(1.05);
+  img {
+    height: 40px; /* 로고 이미지 높이 조절 */
+    filter: invert(1); /* 색상 반전 */
   }
 `;
 
 const Nav = styled.nav`
-  a {
-    color: var(--text-color);
-    font-weight: 500;
-    margin: 0 20px;
-    transition: color 0.3s ease;
-    position: relative;
-    padding-bottom: 5px;
+  ul {
+    display: flex;
+    list-style: none;
+  }
 
-    &::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: var(--primary-color);
-      transition: width 0.3s ease;
-    }
+  li {
+    margin-left: 30px;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
 
     &:hover {
-      color: var(--primary-color);
-    }
-
-    &:hover::after {
-      width: 100%;
+      color: var(--text-color-muted);
     }
   }
 `;
@@ -66,28 +58,34 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      const isScrolled = window.scrollY > 50;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [scrolled]);
 
   return (
-    <HeaderContainer className={scrolled ? 'scrolled' : ''}>
-      <Logo href="#home">
-        <img src="/images/image6.png" alt="Logo" />
-      </Logo>
-      <Nav>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#professor">Professor</a>
-        <a href="#members">Members</a>
-        <a href="#location">Location</a>
-        <a href="#contact">Contact</a>
-      </Nav>
+    <HeaderContainer scrolled={scrolled}>
+      <div className="container">
+        <Logo href="#hero">
+          <img src="/images/logoxx.png" alt="AMOGUN Lab Logo" />
+        </Logo>
+        <Nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#professor">Professor</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </Nav>
+      </div>
     </HeaderContainer>
   );
 }
