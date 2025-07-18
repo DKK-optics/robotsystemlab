@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/robotsystemlab/static/js/main.d5eb08a3.js",
+    "main.js": "/robotsystemlab/static/js/main.b613a8e5.js",
     "index.html": "/robotsystemlab/index.html",
-    "main.d5eb08a3.js.map": "/robotsystemlab/static/js/main.d5eb08a3.js.map"
+    "main.b613a8e5.js.map": "/robotsystemlab/static/js/main.b613a8e5.js.map"
   },
   "entrypoints": [
-    "static/js/main.d5eb08a3.js"
+    "static/js/main.b613a8e5.js"
   ]
 }
