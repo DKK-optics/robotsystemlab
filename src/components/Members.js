@@ -91,7 +91,7 @@ const membersData = {
       role: 'Optics, Automotive AI',
       isClickable: true,
       details: {
-        image: '/images/dkkim.JPG',
+        image: process.env.PUBLIC_URL + '/images/dkkim.JPG',
         title: 'Robotics Engineering, 21st',
         history: [
           'GPT Study Group (Yeungnam Univ.)',
@@ -106,7 +106,7 @@ const membersData = {
       role: 'FEM, Defense Industry',
       isClickable: true,
       details: {
-        image: '/images/jeonghyoyoung.jpg', // updated image path
+        image: process.env.PUBLIC_URL + '/images/jeonghyoyoung.jpg', // updated image path
         title: 'Robotics Engineering, 21st',
         history: [
           'CAE study team (Yeungnam Univ.)',

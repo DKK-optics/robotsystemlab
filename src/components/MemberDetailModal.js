@@ -111,7 +111,7 @@ function MemberDetailModal({ member, closeModal }) {
           onClick={(e) => e.stopPropagation()}
         >
           <CloseButton onClick={closeModal}>&times;</CloseButton>
-          <ProfileImage src={member.details.image} alt={member.name} />
+          <ProfileImage src={process.env.PUBLIC_URL + member.details.image} alt={member.name} />
           <ProfileDetails>
             <h2>{member.name}</h2>
             <h3>{member.details.title}</h3>
