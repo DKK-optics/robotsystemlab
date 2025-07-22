@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://oauth2: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@github.com/DKK-optics/robotsystemlab.git"
+    "deploy": "gh-pages -d build -r https://oauth2:YOUR_PERSONAL_ACCESS_TOKEN@github.com/DKK-optics/robotsystemlab.git"
   },
   "eslintConfig": {
     "extends": [
