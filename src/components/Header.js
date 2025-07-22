@@ -16,6 +16,8 @@ const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%; /* 헤더에서는 좌우 여백 없이 화면 전체를 사용 */
+    padding: 0 40px; /* 좌우 패딩만 유지 */
   }
 `;
 
@@ -82,6 +84,7 @@ function Header() {
             <li><a href="#professor">Professor</a></li>
             <li><a href="#members">Members</a></li>
             <li><a href="#research">Research</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#location">Location</a></li>
           </ul>
         </Nav>

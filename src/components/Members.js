@@ -106,7 +106,7 @@ const membersData = {
       role: 'FEM, Defense Industry',
       isClickable: true,
       details: {
-        image: '/images/default-profile.png', // 임시 이미지 경로
+        image: '/images/jeonghyoyoung.jpg', // updated image path
         title: 'Robotics Engineering, 21st',
         history: [
           'CAE study team (Yeungnam Univ.)',

@@ -6,8 +6,10 @@ import About from './components/About';
 import Research from './components/Research';
 import Professor from './components/Professor';
 import Members from './components/Members';
+import Gallery from './components/Gallery';
 import Location from './components/Location';
 import Footer from './components/Footer';
+import ChatBot from './components/ChatBot';
 import AnimatedSection from './components/AnimatedSection';
 
 function App() {
@@ -20,7 +22,8 @@ function App() {
         <AnimatedSection>
           <About />
         </AnimatedSection>
-        <Research /> {/* AnimatedSection 제거 */}
+        <Research />
+        <Gallery />
         <Professor />
         <Members /> {/* AnimatedSection 제거 */}
         <AnimatedSection>
@@ -28,6 +31,7 @@ function App() {
         </AnimatedSection>
       </main>
       <Footer />
+      <ChatBot />
     </>
   );
 }

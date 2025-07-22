@@ -149,7 +149,7 @@ function Professor() {
               <li><strong>전화</strong> <span>053-810-2461</span></li>
             </InfoList>
             <MajorFieldList>
-              <li><strong>§ Major Field:</strong></li>
+              <li><strong>Major Fields</strong></li>
               <li>　- Nano-Design, Measurement and Control</li>
               <li>　- Nano-Opto-Mechatronics</li>
               <li>　- Atomic Force Microscope, Nano-Lithographic Machine</li>
