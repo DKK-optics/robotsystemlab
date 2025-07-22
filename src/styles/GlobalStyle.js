@@ -20,6 +20,10 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: var(--background-dark1);
+    background-image: url('/images/space.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: var(--text-color);
     font-family: var(--font-main);
     -webkit-font-smoothing: antialiased;

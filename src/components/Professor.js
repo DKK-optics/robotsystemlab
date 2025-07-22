@@ -138,7 +138,7 @@ function Professor() {
       <StickyContainer>
         <ProfessorContainer>
           <ImageWrapper style={{ scale: imageScale, x: imageX }}>
-            <img src="/images/image5.jpeg" alt="Dongyeun Lee 교수" />
+            <img src="/images/professor.jpg" alt="Dongyeun Lee 교수" />
           </ImageWrapper>
           <TextWrapper style={{ x: textX, opacity: textOpacity }}>
             <h3>Dong-Yeon Lee</h3>

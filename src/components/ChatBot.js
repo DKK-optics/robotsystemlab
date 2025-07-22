@@ -204,7 +204,7 @@ function ChatBot() {
   return (
     <>
       <FloatingButton onClick={() => setOpen((o) => !o)}>
-        <img src={process.env.PUBLIC_URL + '/images/arc-reactor.svg'} alt="JARVIS" />
+        <img src="/images/arc-reactor.svg" alt="JARVIS" />
       </FloatingButton>
       <AnimatePresence>
         {open && (
