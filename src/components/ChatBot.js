@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -10,12 +10,58 @@ const FloatingButton = styled.button`
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: var(--primary-color);
-  color: var(--background-dark1);
-  border: none;
-  font-size: 1.5rem;
+  background: #1a1a1a;
+  border: 2px solid #00bcd4;
   cursor: pointer;
   z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, #00bcd4 0%, transparent 70%);
+    opacity: 0.5;
+    animation: pulse 2s infinite;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(0, 188, 212, 0.8);
+    border-color: #fff;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+  }
+
+  img {
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: rotate(180deg);
+  }
 `;
 
 const ChatContainer = styled(motion.div)`
@@ -44,6 +90,25 @@ const Messages = styled.div`
   flex: 1;
   padding: 10px;
   overflow-y: auto;
+  scroll-behavior: smooth;
+
+  /* 스크롤바 스타일링 */
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--background-dark1);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 `;
 
 const InputWrapper = styled.form`
@@ -87,6 +152,15 @@ function ChatBot() {
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
+  const messagesEndRef = useRef(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]); // 메시지가 추가될 때마다 스크롤
 
   const handleSend = async (e) => {
     e.preventDefault();
@@ -129,7 +203,9 @@ function ChatBot() {
 
   return (
     <>
-      <FloatingButton onClick={() => setOpen((o) => !o)}>💬</FloatingButton>
+      <FloatingButton onClick={() => setOpen((o) => !o)}>
+        <img src="/images/arc-reactor.png" alt="JARVIS" />
+      </FloatingButton>
       <AnimatePresence>
         {open && (
           <ChatContainer
@@ -144,6 +220,7 @@ function ChatBot() {
                 <Bubble key={idx} role={m.role}>{m.content}</Bubble>
               ))}
               {loading && <Bubble role="assistant">답변 생성 중...</Bubble>}
+              <div ref={messagesEndRef} />
             </Messages>
             <InputWrapper onSubmit={handleSend}>
               <TextInput
