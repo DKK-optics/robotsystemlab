@@ -143,7 +143,7 @@ const Bubble = styled.div`
   white-space: pre-line;
 `;
 
-const API_ENDPOINT = 'http://localhost:5000/chat';
+const API_ENDPOINT = 'https://jarvisrobotsystemlab-e61b9374168c.herokuapp.com/chat'; // Heroku 앱 URL로 변경
 
 const personData = {
   '김대근': {

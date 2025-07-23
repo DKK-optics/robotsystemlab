@@ -111,7 +111,4 @@ def chat():
             return jsonify({"error": "API Error", "details": response.text}), 500
             
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-if __name__ == '__main__':
-    app.run(port=5000) 
+        return jsonify({"error": str(e)}), 500 
