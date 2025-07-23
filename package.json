@@ -2,7 +2,7 @@
   "name": "robot-system-lab-mk2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dkk-optics.github.io/robotsystemlab",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",

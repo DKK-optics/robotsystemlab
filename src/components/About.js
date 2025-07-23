@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 
 const AboutSection = styled.section`
   padding: 100px 0;
-  background: linear-gradient(to bottom, transparent, var(--background-dark1) 30%);
+  /* background: linear-gradient(to bottom, transparent, var(--background-dark1) 30%); */
   text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  /* font-family: var(--font-orbitron); */ // Orbitron 폰트 적용 제거
 `;
 
 const TextWrapper = styled.div`
@@ -37,9 +40,9 @@ const TextWrapper = styled.div`
   }
 `;
 
-function About() {
+const About = forwardRef((props, ref) => {
   return (
-    <AboutSection id="about">
+    <AboutSection id="about" ref={ref}>
       <div className="container">
         <TextWrapper>
           <h2>ABOUT LAB</h2>
@@ -50,6 +53,6 @@ function About() {
       </div>
     </AboutSection>
   );
-}
+});
 
 export default About; 

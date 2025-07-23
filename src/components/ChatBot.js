@@ -33,7 +33,7 @@ const FloatingButton = styled.button`
 
   &:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 25px rgba(0, 188, 212, 0.8);
+    box-shadow: 0 0 35px rgba(0, 188, 212, 1); // 더 강한 네온 효과
     border-color: #fff;
   }
 
@@ -145,10 +145,25 @@ const Bubble = styled.div`
 
 const API_ENDPOINT = 'http://localhost:5000/chat';
 
+const personData = {
+  '김대근': {
+    role: '학부연구생',
+    details: 'Optics, Automotive AI 분야를 연구하고 있습니다. GPT 스터디 그룹, Phocus Camera/Vision 팀 활동 경력이 있습니다. 🚀',
+  },
+  '정효영': {
+    role: '학부연구생',
+    details: 'FEM, Defense Industry 분야를 연구하고 있습니다. CAE 스터디 팀 활동 경력이 있습니다. ✨',
+  },
+  '이동연': {
+    role: '교수님',
+    details: '로봇시스템연구실의 교수님으로, AI·로봇공학·미디어 기술 융합 연구를 이끌고 계십니다. 👨‍🔬',
+  },
+};
+
 function ChatBot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { role: 'assistant', content: '안녕하세요. 저는 로봇시스템연구실의 AI 비서 자비스(J.A.R.V.I.S.)입니다. 무엇을 도와드릴까요?' }
+    { role: 'assistant', content: '안녕하십니까, 사용자님. 저는 J.A.R.V.I.S.입니다. 무엇을 도와드릴까요? ✨' } // J.A.R.V.I.S. 스타일로 변경
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -171,6 +186,19 @@ function ChatBot() {
     setInput('');
     setLoading(true);
 
+    let assistantMsg = '';
+
+    // 인물 정보 요청 처리
+    const nameQuery = Object.keys(personData).find(name => content.includes(name));
+    if (nameQuery) {
+      const person = personData[nameQuery];
+      assistantMsg = `${nameQuery}님은 ${person.role}입니다. 주요 연구 분야는 ${person.details} 어떠신가요? 🤔`;
+      setMessages((prev) => [...prev, { role: 'assistant', content: assistantMsg }]);
+      setLoading(false);
+      return;
+    }
+
+    // 일반적인 질문 처리
     try {
       const res = await fetch(API_ENDPOINT, {
         method: 'POST',
@@ -185,26 +213,41 @@ function ChatBot() {
         throw new Error(`HTTP ${res.status}`);
       }
       const data = await res.json();
-      const assistantMsg = data.response || '응답을 가져오지 못했습니다.';
+      let rawAssistantMsg = data.response || '응답을 가져오지 못했습니다. 😔';
+      
+      // 'sir' 단어 대체 및 이모티콘 추가
+      rawAssistantMsg = rawAssistantMsg.replace(/sir|Sir/g, '사용자님');
+
+      // 간단한 규칙 기반으로 이모티콘 추가
+      if (rawAssistantMsg.includes('안녕하세요') || rawAssistantMsg.includes('안녕')) {
+        assistantMsg = rawAssistantMsg + ' 👋';
+      } else if (rawAssistantMsg.includes('무엇을') || rawAssistantMsg.includes('어떻게')) {
+        assistantMsg = rawAssistantMsg + ' 💡';
+      } else if (rawAssistantMsg.includes('감사') || rawAssistantMsg.includes('고마워')) {
+        assistantMsg = rawAssistantMsg + ' 😊';
+      } else {
+        assistantMsg = rawAssistantMsg + ' 💬';
+      }
+
       setMessages((prev) => [...prev, { role: 'assistant', content: assistantMsg }]);
     } catch (err) {
       console.error('Error:', err);
-      setMessages((prev) => [...prev, { role: 'assistant', content: '오류가 발생했습니다. 잠시 후 다시 시도해주세요.' }]);
+      setMessages((prev) => [...prev, { role: 'assistant', content: '오류가 발생했습니다. 잠시 후 다시 시도해주세요. 🛠️' }]);
     } finally {
       setLoading(false);
     }
   };
 
   const containerVariants = {
-    hidden: { opacity: 0, y: 50, scale: 0.8 },
-    visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.3 } },
-    exit: { opacity: 0, y: 50, scale: 0.8, transition: { duration: 0.2 } },
+    hidden: { opacity: 0, y: 100, scale: 0.7 }, // 시작 시 더 아래에서 작게
+    visible: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", damping: 15, stiffness: 120 } }, // 스프링 효과
+    exit: { opacity: 0, y: 100, scale: 0.7, transition: { duration: 0.3 } },
   };
 
   return (
     <>
       <FloatingButton onClick={() => setOpen((o) => !o)}>
-        <img src="/images/arc-reactor.svg" alt="JARVIS" />
+        <img src={process.env.PUBLIC_URL + '/images/arc-reactor.svg'} alt="JARVIS" />
       </FloatingButton>
       <AnimatePresence>
         {open && (

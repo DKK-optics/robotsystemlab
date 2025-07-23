@@ -15,13 +15,13 @@ const SectionTitle = styled.h2`
   margin-bottom: 60px;
 `;
 
-const TabContainer = styled.div`
+const TabContainer = styled(motion.div)`
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 `;
 
-const TabButton = styled.button`
+const TabButton = styled(motion.button)`
   background: none;
   border: none;
   color: ${({ active }) => (active ? 'var(--primary-color)' : 'var(--text-color-muted)')};
@@ -128,6 +128,11 @@ const itemVariants = {
       ease: 'easeOut',
     },
   },
+};
+
+const tabItemVariants = {
+  hidden: { opacity: 0, y: 10 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
 };
 
 // --- Data ---
@@ -237,15 +242,40 @@ function Research() {
   return (
     <ResearchSection id="research">
       <div className="container">
-        <SectionTitle>RESEARCH</SectionTitle>
-        <TabContainer>
-          <TabButton active={activeTab === 'fields'} onClick={() => setActiveTab('fields')}>
+        <SectionTitle
+          as={motion.h2}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          RESEARCH
+        </SectionTitle>
+        <TabContainer
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <TabButton
+            active={activeTab === 'fields'}
+            onClick={() => setActiveTab('fields')}
+            variants={tabItemVariants}
+          >
             Research Fields
           </TabButton>
-          <TabButton active={activeTab === 'publications'} onClick={() => setActiveTab('publications')}>
+          <TabButton
+            active={activeTab === 'publications'}
+            onClick={() => setActiveTab('publications')}
+            variants={tabItemVariants}
+          >
             Publications
           </TabButton>
-          <TabButton active={activeTab === 'ip'} onClick={() => setActiveTab('ip')}>
+          <TabButton
+            active={activeTab === 'ip'}
+            onClick={() => setActiveTab('ip')}
+            variants={tabItemVariants}
+          >
             IP & Tech Transfer
           </TabButton>
         </TabContainer>

@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     --text-color: #e0e0e0; // 메인 텍스트: 밝은 회색
     --text-color-muted: #888888; // 보조 텍스트: 회색
     --font-main: 'Poppins', 'Noto Sans KR', sans-serif;
+    --font-orbitron: 'Orbitron', sans-serif; // Orbitron 폰트 변수 추가
   }
 
   *,
@@ -20,10 +21,10 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: var(--background-dark1);
-    background-image: url('/images/space.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    /* background-image: url(${process.env.PUBLIC_URL + '/images/space.jpg'}); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
     color: var(--text-color);
     font-family: var(--font-main);
     -webkit-font-smoothing: antialiased;

@@ -76,7 +76,7 @@ function Header() {
     <HeaderContainer scrolled={scrolled}>
       <div className="container">
         <Logo href="#hero">
-          <img src="/images/logoxx.png" alt="AMOGUN Lab Logo" />
+          <img src={process.env.PUBLIC_URL + '/images/logoxx.png'} alt="AMOGUN Lab Logo" />
         </Logo>
         <Nav>
           <ul>
