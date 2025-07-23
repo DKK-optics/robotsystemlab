@@ -16,25 +16,36 @@ const fadeIn = keyframes`
 
 const MembersSection = styled.section`
   /* 배경을 제거하여 GlobalStyle의 body 배경(검은색)이 보이도록 함 */
+  @media (max-width: 768px) {
+    padding: 60px 0; // 모바일 패딩 조정
+  }
 `;
 
 const SectionTitle = styled.h2`
   text-align: center;
-  font-size: 2.5rem;
   margin-bottom: 60px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+  }
 `;
 
 const TabContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap; // 탭이 다음 줄로 넘어가도록
+    justify-content: center; // 중앙 정렬
+    margin-bottom: 20px; // 모바일 여백 조정
+  }
 `;
 
 const TabButton = styled.button`
   background: none;
   border: none;
   color: ${({ active }) => (active ? 'var(--primary-color)' : 'var(--text-color-muted)')};
-  font-size: 1.2rem;
   font-weight: 600;
   margin: 0 20px;
   padding-bottom: 10px;
@@ -45,6 +56,11 @@ const TabButton = styled.button`
   &:hover {
     color: var(--primary-color);
   }
+
+  @media (max-width: 768px) {
+    margin: 0 10px 10px; // 모바일 여백 조정
+    padding-bottom: 5px;
+  }
 `;
 
 const TabPanel = styled(motion.div)`
@@ -52,12 +68,21 @@ const TabPanel = styled(motion.div)`
   border-radius: 8px; /* 탭 버튼 아래부터 둥글게 처리 */
   background: var(--background-dark2); /* 이 부분만 회색 블록으로 */
   animation: ${fadeIn} 0.5s ease-in-out;
+
+  @media (max-width: 768px) {
+    padding: 20px; // 모바일 패딩 조정
+  }
 `;
 
 const MembersGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; // 모바일에서 한 열로
+    gap: 20px; // 모바일 간격 조정
+  }
 `;
 
 const MemberCard = styled.div`
@@ -76,11 +101,17 @@ const MemberCard = styled.div`
   h4 {
     color: var(--primary-color);
     margin: 15px 0 5px;
+
+    @media (max-width: 768px) {
+      margin: 10px 0 5px;
+    }
   }
 
   p {
     color: var(--text-color-muted);
-    font-size: 0.9rem;
+
+    @media (max-width: 768px) {
+    }
   }
 `;
 
@@ -92,7 +123,7 @@ const membersData = {
       isClickable: true,
       details: {
         image: '/images/dkkim.jpg',
-        title: 'Robotics Engineering, 21st',
+        title: 'Robotics Engineering, 21',
         history: [
           'GPT Study Group (Yeungnam Univ.)',
           'Phocus Camera Team (Robotics)',
@@ -107,7 +138,7 @@ const membersData = {
       isClickable: true,
       details: {
         image: '/images/jeonghyoyoung.jpg',
-        title: 'Robotics Engineering, 21st',
+        title: 'Robotics Engineering, 21',
         history: [
           'CAE study team (Yeungnam Univ.)',
         ]

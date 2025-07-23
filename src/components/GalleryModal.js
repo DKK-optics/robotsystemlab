@@ -23,17 +23,34 @@ const Container = styled(motion.div)`
   width: 90%;
   max-width: 800px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  height: auto; // 내용에 따라 높이 자동 조절
+  overflow-y: auto; // 내용이 넘칠 경우 스크롤
+
+  @media (max-width: 768px) {
+    padding: 20px; // 모바일 패딩 조정
+    width: 95%; // 모바일 너비 조정
+    max-height: 90vh; // 모바일 최대 높이
+  }
 `;
 
 const Title = styled.h2`
   color: var(--primary-color);
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem; // 모바일 폰트 크기 조정
+    margin-bottom: 10px;
+  }
 `;
 
 const Description = styled.p`
   line-height: 1.8;
   color: var(--text-color);
   white-space: pre-line;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem; // 모바일 폰트 크기 조정
+  }
 `;
 
 const CloseButton = styled.button`

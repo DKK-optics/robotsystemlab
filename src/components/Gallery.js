@@ -5,23 +5,39 @@ import GalleryModal from './GalleryModal';
 
 const GallerySection = styled.section`
   padding: 100px 0;
+
+  @media (max-width: 768px) {
+    padding: 60px 0; // 모바일 패딩 조정
+  }
 `;
 
 const SectionTitle = styled.h2`
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 60px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem; // 모바일 폰트 크기 조정
+    margin-bottom: 40px;
+  }
 `;
 
 const Grid = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; // 모바일에서 한 열로
+    gap: 20px; // 모바일 간격 조정
+  }
 `;
 
 const ImageWrapper = styled(motion.div)`
   overflow: hidden;
   border-radius: 8px;
+  height: 200px; // 이미지 높이 고정 (모바일에서 특히 중요)
+  
   img {
     width: 100%;
     height: 100%;
@@ -30,6 +46,10 @@ const ImageWrapper = styled(motion.div)`
   }
   &:hover img {
     transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    height: 180px; // 모바일 이미지 높이 조정
   }
 `;
 

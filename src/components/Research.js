@@ -7,11 +7,14 @@ import { faCube, faRobot, faMicrochip } from '@fortawesome/free-solid-svg-icons'
 // --- Styled Components ---
 const ResearchSection = styled.section`
   padding: 100px 0;
+
+  @media (max-width: 768px) {
+    padding: 60px 0; // 모바일 패딩 조정
+  }
 `;
 
 const SectionTitle = styled.h2`
   text-align: center;
-  font-size: 2.5rem;
   margin-bottom: 60px;
 `;
 
@@ -19,6 +22,12 @@ const TabContainer = styled(motion.div)`
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap; // 탭이 다음 줄로 넘어가도록
+    justify-content: center; // 중앙 정렬
+    margin-bottom: 20px; // 모바일 여백 조정
+  }
 `;
 
 const TabButton = styled(motion.button)`
@@ -36,6 +45,12 @@ const TabButton = styled(motion.button)`
   &:hover {
     color: var(--primary-color);
   }
+
+  @media (max-width: 768px) {
+    font-size: 1rem; // 모바일 폰트 크기 조정
+    margin: 0 10px 10px; // 모바일 여백 조정
+    padding-bottom: 5px;
+  }
 `;
 
 // Card-related styled components
@@ -43,6 +58,11 @@ const CardsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; // 모바일에서 한 열로
+    gap: 20px; // 모바일 간격 조정
+  }
 `;
 
 const Card = styled(motion.div)`
@@ -56,6 +76,10 @@ const Card = styled(motion.div)`
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 768px) {
+    padding: 20px; // 모바일 패딩 조정
+  }
 `;
 
 const IconWrapper = styled.div`
@@ -65,13 +89,13 @@ const IconWrapper = styled.div`
 `;
 
 const CardTitle = styled.h3`
-  font-size: 1.5rem;
   margin-bottom: 15px;
 `;
 
 const CardText = styled.p`
   color: var(--text-color-muted);
   line-height: 1.7;
+  /* font-size: 1rem; */ // GlobalStyle에서 body font-size 및 clamp() 사용
 `;
 
 
@@ -88,6 +112,11 @@ const PubsTable = styled.table`
   th { color: var(--text-color-muted); font-weight: 600; text-transform: uppercase; }
   td { color: var(--text-color); }
   tbody tr:hover { background-color: var(--background-dark2); }
+
+  @media (max-width: 768px) {
+    /* font-size: 0.8rem; */ // GlobalStyle의 body 폰트 크기 따르도록
+    th, td { padding: 8px; } // 모바일 패딩 조정
+  }
 `;
 
 const ShowMoreButton = styled.button`

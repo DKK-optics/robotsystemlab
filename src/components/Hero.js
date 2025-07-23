@@ -16,6 +16,10 @@ const HeroSection = styled.section`
   align-items: center;
   justify-content: center;
   position: relative; // Particles를 위한 position
+
+  @media (max-width: 768px) {
+    background-color: var(--background-dark1); // 모바일에서 HeroSection 배경을 검은색으로 강제 설정
+  }
 `;
 
 const ContentContainer = styled.div`
@@ -31,6 +35,10 @@ const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 0 20px; // 모바일 패딩 조정
+  }
 `;
 
 const HeroContent = styled.div`
@@ -45,6 +53,11 @@ const HeroContent = styled.div`
     letter-spacing: 4px;
     color: var(--text-color-muted);
     font-family: var(--font-orbitron); // Orbitron 폰트 적용
+
+    @media (max-width: 768px) {
+      font-size: 1rem; // 모바일 폰트 크기 조정
+      letter-spacing: 2px; // 모바일 간격 조정
+    }
   }
 
   h1 {
@@ -57,6 +70,12 @@ const HeroContent = styled.div`
     margin: 20px 0;
     color: var(--primary-color);
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+
+    @media (max-width: 768px) {
+      font-size: clamp(2rem, 8vw, 4rem); // 모바일 폰트 크기 조정
+      letter-spacing: 4px; // 모바일 간격 조정
+      white-space: normal; // 줄 바꿈 허용
+    }
   }
 
   p {
@@ -65,6 +84,11 @@ const HeroContent = styled.div`
     margin: 0 auto 30px;
     color: var(--text-color);
     font-family: var(--font-orbitron); // Orbitron 폰트 적용
+
+    @media (max-width: 768px) {
+      font-size: 1rem; // 모바일 폰트 크기 조정
+      margin-bottom: 20px; // 모바일 여백 조정
+    }
   }
 `;
 
@@ -130,6 +154,8 @@ function Hero(_, ref) {
     await loadSlim(main);
   };
 
+  const isMobile = window.innerWidth <= 768; // 모바일 여부 판단
+
   const particlesOptions = {
     background: {
       color: {
@@ -180,7 +206,7 @@ function Hero(_, ref) {
           default: "bounce",
         },
         random: true,
-        speed: 0.3, // 별이 움직이는 속도
+        speed: isMobile ? 0.1 : 0.3, // 모바일에서 별 움직임 속도 줄임
         straight: false,
       },
       number: {
@@ -188,7 +214,7 @@ function Hero(_, ref) {
           enable: true,
           area: 800,
         },
-        value: 80, // 별 개수
+        value: isMobile ? 40 : 80, // 모바일에서 별 개수 줄임
       },
       opacity: {
         value: 0.5, // 별 투명도
@@ -197,7 +223,7 @@ function Hero(_, ref) {
         type: "circle",
       },
       size: {
-        value: { min: 1, max: 3 }, // 별 크기
+        value: isMobile ? { min: 0.5, max: 2 } : { min: 1, max: 3 }, // 모바일에서 별 크기 줄임
       },
     },
     detectRetina: true,
@@ -205,19 +231,21 @@ function Hero(_, ref) {
 
   return (
     <HeroSection id="home" ref={ref}>
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={particlesOptions}
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          zIndex: -1, // 배경으로 설정
-        }}
-      />
+      {!isMobile && ( // 모바일이 아닐 때만 Particles 렌더링
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          options={particlesOptions}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            zIndex: -1, // 배경으로 설정
+          }}
+        />
+      )}
       <ContentContainer>
         <Spacer /> {/* 상단 공간을 채우는 스페이서 */}
         <HeroContent

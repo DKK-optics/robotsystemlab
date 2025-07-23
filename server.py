@@ -67,11 +67,8 @@ def chat():
             "user": user_message
         })
         
-        # 이전 학습 내용을 포함한 메시지 구성
-        learned_context = "\\n".join([
-            f"학습된 정보 {i+1}: {info}" 
-            for i, info in enumerate(memory["learned_info"].values())
-        ])
+        # 학습된 정보를 포함한 메시지 구성 (jarvis_memory.json에서 'robotics_engineering_info' 로드)
+        robotics_info = memory["learned_info"].get("robotics_engineering_info", "")
         
         # 최근 3개의 대화 내용을 문맥으로 포함
         recent_context = []
@@ -83,8 +80,12 @@ def chat():
         
         context_str = "\\n".join(recent_context)
         
+        system_content = f"{JARVIS_PERSONA}\n\n최근 대화 내용:\n{context_str}"
+        if robotics_info:
+            system_content += f"\n\n영남대학교 로봇공학과 정보:\n{robotics_info}"
+
         messages = [
-            {"role": "system", "content": f"{JARVIS_PERSONA}\n\n최근 대화 내용:\n{context_str}\n\n학습된 정보:\n{learned_context}"},
+            {"role": "system", "content": system_content},
             {"role": "assistant", "content": "안녕하세요! 저는 로봇시스템연구실의 AI 비서 자비스입니다. 무엇을 도와드릴까요?"},
             {"role": "user", "content": user_message}
         ]

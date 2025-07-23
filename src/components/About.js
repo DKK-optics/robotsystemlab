@@ -5,9 +5,14 @@ const AboutSection = styled.section`
   padding: 100px 0;
   /* background: linear-gradient(to bottom, transparent, var(--background-dark1) 30%); */
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 60px;
+  /* font-size: 2.5rem; */ // 제거
+  /* margin-bottom: 60px; */ // 제거
   /* font-family: var(--font-orbitron); */ // Orbitron 폰트 적용 제거
+
+  @media (max-width: 768px) {
+    padding: 60px 0; // 모바일 패딩 조정
+    /* margin-bottom: 40px; */ // 제거
+  }
 `;
 
 const TextWrapper = styled.div`
@@ -15,7 +20,7 @@ const TextWrapper = styled.div`
   margin: 0 auto;
 
   h2 {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */ // 제거
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 15px;
@@ -31,12 +36,21 @@ const TextWrapper = styled.div`
       left: 50%;
       transform: translateX(-50%);
     }
+
+    @media (max-width: 768px) {
+      /* font-size: 2rem; */ // 제거
+      margin-bottom: 15px;
+    }
   }
 
   p {
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */ // 제거
     line-height: 1.8;
     color: var(--text-color-muted);
+
+    @media (max-width: 768px) {
+      /* font-size: 0.9rem; */ // 제거
+    }
   }
 `;
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope /*, faPhone*/ } from '@fortawesome/free-solid-svg-icons'; // faPhone 제거
 
 const FooterSection = styled.footer`
   background: var(--background-dark1);
@@ -18,7 +18,7 @@ const FooterContainer = styled.footer`
 
 const ContactInfo = styled.div`
   h3 {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */ // GlobalStyle에서 clamp() 사용
     margin-bottom: 20px;
   }
   p {
@@ -57,7 +57,7 @@ function Footer() {
           </ContactInfo>
           <Copyright>
             <p>&copy; {new Date().getFullYear()} Robot Systems Laboratory.</p>
-            <p>All rights reserved. Daekeun Kim 21st</p>
+            <p>All rights reserved. Daekeun Kim 21</p>
           </Copyright>
         </FooterContainer>
       </div>
