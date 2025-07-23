@@ -143,7 +143,7 @@ const Bubble = styled.div`
   white-space: pre-line;
 `;
 
-const API_ENDPOINT = 'https://jarvisrobotsystemlab-e61b9374168c.herokuapp.com/chat'; // Heroku 앱 URL로 변경
+const API_ENDPOINT = 'http://localhost:5000/chat'; // 로컬 Flask 앱 URL로 변경 (테스트용)
 
 const personData = {
   '김대근': {
@@ -200,19 +200,21 @@ function ChatBot() {
 
     // 일반적인 질문 처리
     try {
-      const res = await fetch(API_ENDPOINT, {
+      const response = await fetch(API_ENDPOINT, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          message: content
-        }),
+        body: JSON.stringify({ message: content }),
       });
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status}`);
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error("Backend error response:", errorData);
+        throw new Error(`HTTP ${response.status}: ${errorData.error || '알 수 없는 오류'}. ${errorData.details || ''}`);
       }
-      const data = await res.json();
+
+      const data = await response.json();
       let rawAssistantMsg = data.response || '응답을 가져오지 못했습니다. 😔';
       
       // 'sir' 단어 대체 및 이모티콘 추가
@@ -238,24 +240,24 @@ function ChatBot() {
     }
   };
 
-  const containerVariants = {
-    hidden: { opacity: 0, y: 100, scale: 0.7 }, // 시작 시 더 아래에서 작게
-    visible: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", damping: 15, stiffness: 120 } }, // 스프링 효과
-    exit: { opacity: 0, y: 100, scale: 0.7, transition: { duration: 0.3 } },
-  };
+  // const containerVariants = {
+  //   hidden: { opacity: 0, y: 100, scale: 0.7 }, // 시작 시 더 아래에서 작게
+  //   visible: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", damping: 15, stiffness: 120 } }, // 스프링 효과
+  //   exit: { opacity: 0, y: 100, scale: 0.7, transition: { duration: 0.3 } },
+  // };
 
   return (
     <>
       <FloatingButton onClick={() => setOpen((o) => !o)}>
         <img src={process.env.PUBLIC_URL + '/images/arc-reactor.svg'} alt="JARVIS" />
       </FloatingButton>
-      <AnimatePresence>
+      {/* <AnimatePresence> */}
         {open && (
           <ChatContainer
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
+            // variants={containerVariants}
+            // initial="hidden"
+            // animate="visible"
+            // exit="exit"
           >
             <Header>ChatBot</Header>
             <Messages>
@@ -275,7 +277,7 @@ function ChatBot() {
             </InputWrapper>
           </ChatContainer>
         )}
-      </AnimatePresence>
+      {/* </AnimatePresence> */}
     </>
   );
 }
