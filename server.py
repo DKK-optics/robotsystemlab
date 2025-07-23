@@ -109,7 +109,17 @@ def chat():
             save_memory(memory)
             return jsonify({"response": assistant_message})
         else:
-            return jsonify({"error": "API Error", "details": response.text}), 500
+            # API 응답이 성공이 아닐 경우 상세 오류 메시지 반환
+            error_details = response.text
+            status_code = response.status_code
+            return jsonify({"error": "AI API 호출 중 문제가 발생했습니다.", "status_code": status_code, "details": error_details}), 500
             
+    except requests.exceptions.RequestException as e:
+        # requests 라이브러리 관련 네트워크 오류 처리
+        return jsonify({"error": "네트워크 통신 오류가 발생했습니다. 잠시 후 다시 시도해주세요.", "details": str(e)}), 500
+    except json.JSONDecodeError as e:
+        # JSON 파싱 오류 처리 (API 응답이 유효한 JSON이 아닐 경우)
+        return jsonify({"error": "AI API 응답 형식이 올바르지 않습니다.", "details": str(e)}), 500
     except Exception as e:
-        return jsonify({"error": str(e)}), 500 
+        # 그 외 모든 예상치 못한 오류 처리
+        return jsonify({"error": "죄송합니다, 서버 내부에서 예상치 못한 오류가 발생했습니다. 개발자에게 문의해주세요.", "details": str(e)}), 500 
