@@ -1,0 +1,23 @@
+2025-07-24 12:36:46,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 12:36:46,025 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 12:37:19,760 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-24 12:37:19,761 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 12:37:19,763 - INFO -  * Restarting with stat
+2025-07-24 12:37:20,932 - WARNING -  * Debugger is active!
+2025-07-24 12:37:20,937 - INFO -  * Debugger PIN: 427-878-557
+2025-07-24 12:37:36,711 - INFO - Request received from IP: 127.0.0.1
+2025-07-24 12:37:36,712 - INFO - Message from 127.0.0.1: Hello, bot!
+2025-07-24 12:37:36,729 - ERROR - Third-party API request failed for IP: 127.0.0.1 - HTTPSConnectionPool(host='api.skt.a.x', port=443): Max retries exceeded with url: /ask (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000222D5300050>: Failed to resolve 'api.skt.a.x' ([Errno 11001] getaddrinfo failed)"))
+2025-07-24 12:37:36,730 - INFO - 127.0.0.1 - - [24/Jul/2025 12:37:36] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-24 12:38:04,607 - INFO - Request received from IP: 127.0.0.1
+2025-07-24 12:38:04,607 - INFO - Message from 127.0.0.1: Hello, bot!
+2025-07-24 12:38:04,611 - ERROR - Third-party API request failed for IP: 127.0.0.1 - HTTPSConnectionPool(host='api.skt.a.x', port=443): Max retries exceeded with url: /ask (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000222D5310410>: Failed to resolve 'api.skt.a.x' ([Errno 11001] getaddrinfo failed)"))
+2025-07-24 12:38:04,611 - INFO - 127.0.0.1 - - [24/Jul/2025 12:38:04] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-24 12:38:24,473 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-24 12:38:24,516 - INFO -  * Restarting with stat
+2025-07-24 12:38:25,517 - WARNING -  * Debugger is active!
+2025-07-24 12:38:25,522 - INFO -  * Debugger PIN: 427-878-557
