@@ -21,3 +21,7 @@
 2025-07-24 12:38:24,516 - INFO -  * Restarting with stat
 2025-07-24 12:38:25,517 - WARNING -  * Debugger is active!
 2025-07-24 12:38:25,522 - INFO -  * Debugger PIN: 427-878-557
+2025-07-24 12:38:43,654 - INFO - Request received from IP: 127.0.0.1
+2025-07-24 12:38:43,654 - INFO - Message from 127.0.0.1: Hello, bot!
+2025-07-24 12:38:43,657 - ERROR - Third-party API request failed for IP: 127.0.0.1 - HTTPSConnectionPool(host='api.skt.a.x', port=443): Max retries exceeded with url: /ask (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000222D5311BD0>: Failed to resolve 'api.skt.a.x' ([Errno 11001] getaddrinfo failed)"))
+2025-07-24 12:38:43,657 - INFO - 127.0.0.1 - - [24/Jul/2025 12:38:43] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
