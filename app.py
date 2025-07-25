@@ -7,12 +7,13 @@ from dotenv import load_dotenv
 import logging
 from datetime import datetime
 import requests
+import json # json 모듈 임포트
 
 # .env 파일에서 환경 변수 로드
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "http://localhost:3001"]) # CORS 설정 추가
+CORS(app, resources={r"/chat/*": {"origins": "*"}}) # /chat 경로에 대해 모든 오리진 허용
 
 # Rate Limiter 설정 (IP당 분당 5회 요청 제한)
 limiter = Limiter(
@@ -51,12 +52,13 @@ def chat():
 
     try:
         data = request.get_json()
+
         if not data or 'message' not in data:
             logging.warning(f"Invalid request from IP: {client_ip} - Missing 'message' in JSON")
             return jsonify({"error": "Invalid JSON format: 'message' key missing"}), 400
 
         user_message = data['message']
-        logging.info(f"Message from {client_ip}: {user_message}")
+        logging.info(f"Message from {client_ip} (decoded, should be clean): {user_message}") # Log decoded message for verification
 
         # API 키 보호: 클라이언트에게 API 키를 절대로 보내지 않습니다.
         # 서버에서만 API 키를 사용하여 타사 API를 호출합니다.
@@ -76,7 +78,7 @@ def chat():
         logging.info(f"Request Payload: {payload}")
 
         # 타사 API로 메시지 전달
-        response = requests.post(THIRD_PARTY_API_ENDPOINT, headers=headers, json=payload)
+        response = requests.post(THIRD_PARTY_API_ENDPOINT, headers=headers, json=payload) # payload를 직접 전달
         response.raise_for_status() # HTTP 오류가 발생하면 예외 발생
 
         # 타사 API의 응답을 클라이언트에게 반환 (안전하게 result 키 사용 -> choices[0].message.content)
