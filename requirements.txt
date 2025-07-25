@@ -1,5 +1,5 @@
 flask
 flask-limiter
-python-dotenv
+flask-cors
 requests
-gunicorn 
+python-dotenv 
