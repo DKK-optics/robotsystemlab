@@ -11,8 +11,8 @@ const HeaderContainer = styled.header`
   padding: 20px 40px;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
-  background: ${({ scrolled }) => (scrolled ? 'rgba(0, 0, 0, 0.5)' : 'transparent')};
-  backdrop-filter: ${({ scrolled }) => (scrolled ? 'blur(10px)' : 'none')};
+  background: ${({ $scrolled }) => ($scrolled ? 'rgba(0, 0, 0, 0.5)' : 'transparent')};
+  backdrop-filter: ${({ $scrolled }) => ($scrolled ? 'blur(10px)' : 'none')};
 
   .container {
     display: flex;
@@ -84,7 +84,7 @@ const MobileMenuButton = styled.button`
 `;
 
 const MobileMenu = styled.div`
-  display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')}; // 상태에 따라 보임/숨김
+  display: ${({ $isOpen }) => ($isOpen ? 'flex' : 'none')}; // 상태에 따라 보임/숨김
   flex-direction: column;
   position: fixed;
   top: 0;
@@ -147,7 +147,7 @@ function Header() {
   };
 
   return (
-    <HeaderContainer scrolled={scrolled}>
+    <HeaderContainer $scrolled={scrolled}>
       <div className="container">
         <Logo href="#hero" onClick={closeMobileMenu}> {/* 메뉴 닫기 추가 */}
           <img src={process.env.PUBLIC_URL + '/images/logoxx.png'} alt="AMOGUN Lab Logo" />
@@ -166,7 +166,7 @@ function Header() {
           <FontAwesomeIcon icon={mobileMenuOpen ? faTimes : faBars} />
         </MobileMenuButton>
       </div>
-      <MobileMenu isOpen={mobileMenuOpen}>
+      <MobileMenu $isOpen={mobileMenuOpen}>
         <ul>
           <li><a href="#about" onClick={closeMobileMenu}>About</a></li>
           <li><a href="#professor" onClick={closeMobileMenu}>Professor</a></li>

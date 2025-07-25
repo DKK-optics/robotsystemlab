@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components'; // css 임포트 추가
 import { motion, AnimatePresence } from 'framer-motion';
 
 // --- Styled Components ---
@@ -64,7 +64,32 @@ const FloatingButton = styled.button`
   }
 `;
 
-const ChatContainer = styled(motion.div)`
+const neonRotate = keyframes`
+  0% {
+    border-color: #00bcd4; /* Cyan */
+    box-shadow: 0 0 15px #00bcd4, 0 0 25px #00bcd4, inset 0 0 15px #00bcd4;
+  }
+  25% {
+    border-color: #00aacc; /* Lighter Cyan */
+    box-shadow: 0 0 20px #00aacc, 0 0 35px #00aacc, inset 0 0 20px #00aacc;
+  }
+  50% {
+    border-color: #00bcd4; /* Cyan */
+    box-shadow: 0 0 15px #00bcd4, 0 0 25px #00bcd4, inset 0 0 15px #00bcd4;
+  }
+  75% {
+    border-color: #00aacc; /* Lighter Cyan */
+    box-shadow: 0 0 20px #00aacc, 0 0 35px #00aacc, inset 0 0 20px #00aacc;
+  }
+  100% {
+    border-color: #00bcd4; /* Cyan */
+    box-shadow: 0 0 15px #00bcd4, 0 0 25px #00bcd4, inset 0 0 15px #00bcd4;
+  }
+`;
+
+const ChatContainer = styled(motion.div).withConfig({
+  shouldForwardProp: (prop) => !['isChatLoading'].includes(prop),
+})`
   position: fixed;
   bottom: 90px;
   right: 20px;
@@ -77,6 +102,13 @@ const ChatContainer = styled(motion.div)`
   flex-direction: column;
   overflow: hidden;
   z-index: 4000;
+  border: 2px solid transparent; /* 기본 테두리 */
+  ${({ isChatLoading }) =>
+    isChatLoading &&
+    css` /* 여기에 css 헬퍼 추가 */
+      animation: ${neonRotate} 1.5s infinite alternate; /* 부드러운 네온 애니메이션 */
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.7); /* 로딩 시 그림자 강화 */
+    `}
 `;
 
 const Header = styled.div`
@@ -168,6 +200,7 @@ function ChatBot() {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
+  const [isChatLoading, setIsChatLoading] = useState(false); // 로딩 상태 이름 변경
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -185,6 +218,7 @@ function ChatBot() {
     setMessages(newMessages);
     setInput('');
     setLoading(true);
+    setIsChatLoading(true); // 메시지 전송 시작 시 로딩 상태 활성화
 
     let assistantMsg = '';
 
@@ -195,6 +229,7 @@ function ChatBot() {
       assistantMsg = `${nameQuery}님은 ${person.role}입니다. 주요 연구 분야는 ${person.details} 어떠신가요? 🤔`;
       setMessages((prev) => [...prev, { role: 'assistant', content: assistantMsg }]);
       setLoading(false);
+      setIsChatLoading(false); // 응답 수신 또는 오류 발생 시 로딩 상태 비활성화
       return;
     }
 
@@ -234,32 +269,38 @@ function ChatBot() {
       setMessages((prev) => [...prev, { role: 'assistant', content: assistantMsg }]);
     } catch (err) {
       console.error('Error:', err);
-      setMessages((prev) => [...prev, { role: 'assistant', content: '오류가 발생했습니다. 잠시 후 다시 시도해주세요. 🛠️' }]);
+      let errorMessage = '오류가 발생했습니다. 잠시 후 다시 시도해주세요. 🛠️';
+      if (err.message.includes('보안 프로그램 DK-VAULT가 DDOS 방지를 위해 작동합니다.')) {
+        errorMessage = '보안 프로그램 DK-VAULT가 DDOS 방지를 위해 작동합니다. 잠시 후 다시 시도해주세요.';
+      }
+      setMessages((prev) => [...prev, { role: 'assistant', content: errorMessage }]);
     } finally {
       setLoading(false);
+      setIsChatLoading(false); // 응답 수신 또는 오류 발생 시 로딩 상태 비활성화
     }
   };
 
-  // const containerVariants = {
-  //   hidden: { opacity: 0, y: 100, scale: 0.7 }, // 시작 시 더 아래에서 작게
-  //   visible: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", damping: 15, stiffness: 120 } }, // 스프링 효과
-  //   exit: { opacity: 0, y: 100, scale: 0.7, transition: { duration: 0.3 } },
-  // };
+  const containerVariants = {
+    hidden: { opacity: 0, y: 100, scale: 0.7 }, // 시작 시 더 아래에서 작게
+    visible: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", damping: 15, stiffness: 120 } }, // 스프링 효과
+    exit: { opacity: 0, y: 100, scale: 0.7, transition: { duration: 0.3 } },
+  };
 
   return (
     <>
       <FloatingButton onClick={() => setOpen((o) => !o)}>
         <img src={process.env.PUBLIC_URL + '/images/arc-reactor.svg'} alt="JARVIS" />
       </FloatingButton>
-      {/* <AnimatePresence> */}
+      <AnimatePresence>
         {open && (
           <ChatContainer
-            // variants={containerVariants}
-            // initial="hidden"
-            // animate="visible"
-            // exit="exit"
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            isChatLoading={isChatLoading} // isChatLoading prop 전달
           >
-            <Header>ChatBot</Header>
+            <Header>로봇시스템연구실 AI 비서 자비스</Header>
             <Messages>
               {messages.map((m, idx) => (
                 <Bubble key={idx} role={m.role}>{m.content}</Bubble>
@@ -272,12 +313,13 @@ function ChatBot() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="메시지를 입력하세요"
+                disabled={isChatLoading} // 로딩 중에는 입력 비활성화
               />
               <SendButton type="submit">➡</SendButton>
             </InputWrapper>
           </ChatContainer>
         )}
-      {/* </AnimatePresence> */}
+      </AnimatePresence>
     </>
   );
 }

@@ -45,11 +45,11 @@ const TabContainer = styled.div`
 const TabButton = styled.button`
   background: none;
   border: none;
-  color: ${({ active }) => (active ? 'var(--primary-color)' : 'var(--text-color-muted)')};
+  color: ${({ $active }) => ($active ? 'var(--primary-color)' : 'var(--text-color-muted)')};
   font-weight: 600;
   margin: 0 20px;
   padding-bottom: 10px;
-  border-bottom: 3px solid ${({ active }) => (active ? 'var(--primary-color)' : 'transparent')};
+  border-bottom: 3px solid ${({ $active }) => ($active ? 'var(--primary-color)' : 'transparent')};
   cursor: pointer;
   transition: all 0.3s ease;
 
@@ -92,10 +92,19 @@ const MemberCard = styled.div`
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  cursor: ${({ isClickable }) => (isClickable ? 'pointer' : 'default')};
+  cursor: ${({ $isClickable }) => ($isClickable ? 'pointer' : 'default')};
 
   &:hover {
     transform: translateY(-5px);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid var(--primary-color);
   }
 
   h4 {
@@ -122,7 +131,7 @@ const membersData = {
       role: 'Optics, Automotive AI',
       isClickable: true,
       details: {
-        image: '/images/dkkim.jpg',
+        image: '/images/dkkim.JPG',
         title: 'Robotics Engineering, 21',
         history: [
           'GPT Study Group (Yeungnam Univ.)',
@@ -207,13 +216,13 @@ function Members() {
         <div className="container">
           <SectionTitle>MEMBERS</SectionTitle>
           <TabContainer>
-            <TabButton active={activeTab === 'bachelors'} onClick={() => setActiveTab('bachelors')}>
+            <TabButton $active={activeTab === 'bachelors'} onClick={() => setActiveTab('bachelors')}>
               Bachelor's Course
             </TabButton>
-            <TabButton active={activeTab === 'alumniMS'} onClick={() => setActiveTab('alumniMS')}>
+            <TabButton $active={activeTab === 'alumniMS'} onClick={() => setActiveTab('alumniMS')}>
               Alumni (M.S)
             </TabButton>
-            <TabButton active={activeTab === 'alumniBS'} onClick={() => setActiveTab('alumniBS')}>
+            <TabButton $active={activeTab === 'alumniBS'} onClick={() => setActiveTab('alumniBS')}>
               Alumni (B.S)
             </TabButton>
           </TabContainer>
@@ -227,7 +236,7 @@ function Members() {
             <MembersGrid>
               {membersData[activeTab].map((member, index) => (
                 <motion.div key={index} variants={itemVariants} onClick={() => handleCardClick(member)}>
-                  <MemberCard isClickable={member.isClickable}>
+                  <MemberCard $isClickable={member.isClickable}>
                     <h4>{member.name}</h4>
                     <p>{member.role}</p>
                   </MemberCard>

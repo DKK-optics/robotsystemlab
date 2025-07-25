@@ -54,7 +54,7 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
-      <main>
+      <main> {/* Removed inline style */}
         <Hero ref={heroRef} /> {/* heroRef 전달 */}
         <AnimatedSection>
           <About />

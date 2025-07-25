@@ -2,6 +2,10 @@ import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 
 const AboutSection = styled.section`
+  background: var(--background-dark1); /* 항상 검은색 배경 */
+  color: var(--text-color);
+  position: relative;
+  overflow: hidden;
   padding: 100px 0;
   /* background: linear-gradient(to bottom, transparent, var(--background-dark1) 30%); */
   text-align: center;

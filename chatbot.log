@@ -25,3 +25,692 @@
 2025-07-24 12:38:43,654 - INFO - Message from 127.0.0.1: Hello, bot!
 2025-07-24 12:38:43,657 - ERROR - Third-party API request failed for IP: 127.0.0.1 - HTTPSConnectionPool(host='api.skt.a.x', port=443): Max retries exceeded with url: /ask (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000222D5311BD0>: Failed to resolve 'api.skt.a.x' ([Errno 11001] getaddrinfo failed)"))
 2025-07-24 12:38:43,657 - INFO - 127.0.0.1 - - [24/Jul/2025 12:38:43] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-25 12:02:15,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:02:15,670 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:02:15,673 - INFO -  * Restarting with stat
+2025-07-25 12:02:16,955 - WARNING -  * Debugger is active!
+2025-07-25 12:02:16,962 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:02:30,446 - INFO - 127.0.0.1 - - [25/Jul/2025 12:02:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:02:32,436 - INFO - 127.0.0.1 - - [25/Jul/2025 12:02:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:02:59,799 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:02:59,848 - INFO -  * Restarting with stat
+2025-07-25 12:03:00,966 - WARNING -  * Debugger is active!
+2025-07-25 12:03:00,970 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:03:07,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:03:07,888 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:03:07,889 - INFO -  * Restarting with stat
+2025-07-25 12:03:08,003 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:03:08,072 - INFO -  * Restarting with stat
+2025-07-25 12:03:09,070 - WARNING -  * Debugger is active!
+2025-07-25 12:03:09,074 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:03:09,196 - WARNING -  * Debugger is active!
+2025-07-25 12:03:09,201 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:04:42,871 - INFO - 127.0.0.1 - - [25/Jul/2025 12:04:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:04:43,119 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:04:43,119 - INFO - Message from 127.0.0.1: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-07-25 12:04:43,270 - ERROR - Third-party API request failed for IP: 127.0.0.1 - 400 Client Error: Bad Request for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:04:43,271 - INFO - 127.0.0.1 - - [25/Jul/2025 12:04:43] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-25 12:05:24,073 - INFO - 127.0.0.1 - - [25/Jul/2025 12:05:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:05:24,382 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:05:24,382 - INFO - Message from 127.0.0.1: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-07-25 12:05:24,444 - ERROR - Third-party API request failed for IP: 127.0.0.1 - 400 Client Error: Bad Request for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:05:24,445 - INFO - 127.0.0.1 - - [25/Jul/2025 12:05:24] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-25 12:05:52,614 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:05:52,720 - INFO -  * Restarting with stat
+2025-07-25 12:05:53,293 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:05:53,393 - INFO -  * Restarting with stat
+2025-07-25 12:05:54,122 - WARNING -  * Debugger is active!
+2025-07-25 12:05:54,125 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:05:54,685 - WARNING -  * Debugger is active!
+2025-07-25 12:05:54,688 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:06:02,289 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:06:02,352 - INFO -  * Restarting with stat
+2025-07-25 12:06:02,737 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:06:02,737 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:06:02,739 - INFO -  * Restarting with stat
+2025-07-25 12:06:02,748 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:06:02,854 - INFO -  * Restarting with stat
+2025-07-25 12:06:03,501 - WARNING -  * Debugger is active!
+2025-07-25 12:06:03,504 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:06:03,856 - WARNING -  * Debugger is active!
+2025-07-25 12:06:03,859 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:06:03,949 - WARNING -  * Debugger is active!
+2025-07-25 12:06:03,953 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:06:43,659 - INFO - 127.0.0.1 - - [25/Jul/2025 12:06:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:06:43,916 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:06:43,917 - INFO - Message from 127.0.0.1: ï¿½Ò°ï¿½ï¿½ï¿½
+2025-07-25 12:06:43,919 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:06:43,919 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:06:43,919 - INFO - Request Payload: {'message': 'ï¿½Ò°ï¿½ï¿½ï¿½'}
+2025-07-25 12:06:44,025 - ERROR - Third-party API request failed for IP: 127.0.0.1 - 400 Client Error: Bad Request for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:06:44,026 - INFO - 127.0.0.1 - - [25/Jul/2025 12:06:44] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-25 12:07:07,235 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:07:07,312 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:07:07,319 - INFO -  * Restarting with stat
+2025-07-25 12:07:07,401 - INFO -  * Restarting with stat
+2025-07-25 12:07:08,097 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:07:08,150 - INFO -  * Restarting with stat
+2025-07-25 12:07:08,453 - WARNING -  * Debugger is active!
+2025-07-25 12:07:08,456 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:08,501 - WARNING -  * Debugger is active!
+2025-07-25 12:07:08,505 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:09,139 - WARNING -  * Debugger is active!
+2025-07-25 12:07:09,143 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:15,880 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:07:15,880 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:07:15,881 - INFO -  * Restarting with stat
+2025-07-25 12:07:16,129 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:07:16,185 - INFO -  * Restarting with stat
+2025-07-25 12:07:16,460 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:07:16,528 - INFO -  * Restarting with stat
+2025-07-25 12:07:16,543 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:07:16,621 - INFO -  * Restarting with stat
+2025-07-25 12:07:17,083 - WARNING -  * Debugger is active!
+2025-07-25 12:07:17,087 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:17,420 - WARNING -  * Debugger is active!
+2025-07-25 12:07:17,423 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:17,723 - WARNING -  * Debugger is active!
+2025-07-25 12:07:17,726 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:17,808 - WARNING -  * Debugger is active!
+2025-07-25 12:07:17,812 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:07:32,370 - INFO - 127.0.0.1 - - [25/Jul/2025 12:07:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:07:32,632 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:07:32,632 - INFO - Message from 127.0.0.1: ï¿½ï¿½6ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½6
+2025-07-25 12:07:32,632 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:07:32,632 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:07:32,634 - INFO - Request Payload: {'model': 'gpt-3.5-turbo', 'messages': [{'role': 'user', 'content': 'ï¿½ï¿½6ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½6'}]}
+2025-07-25 12:07:32,675 - ERROR - Third-party API request failed for IP: 127.0.0.1 - 404 Client Error: Not Found for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:07:32,676 - INFO - 127.0.0.1 - - [25/Jul/2025 12:07:32] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-25 12:08:20,576 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:20,638 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:20,664 - INFO -  * Restarting with stat
+2025-07-25 12:08:20,723 - INFO -  * Restarting with stat
+2025-07-25 12:08:20,877 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:20,974 - INFO -  * Restarting with stat
+2025-07-25 12:08:21,233 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:21,346 - INFO -  * Restarting with stat
+2025-07-25 12:08:22,135 - WARNING -  * Debugger is active!
+2025-07-25 12:08:22,139 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:22,218 - WARNING -  * Debugger is active!
+2025-07-25 12:08:22,223 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:22,391 - WARNING -  * Debugger is active!
+2025-07-25 12:08:22,395 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:22,548 - WARNING -  * Debugger is active!
+2025-07-25 12:08:22,551 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:31,469 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:31,545 - INFO -  * Restarting with stat
+2025-07-25 12:08:31,768 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:31,844 - INFO -  * Restarting with stat
+2025-07-25 12:08:31,989 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:08:31,989 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:08:31,990 - INFO -  * Restarting with stat
+2025-07-25 12:08:32,375 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:32,490 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:08:32,540 - INFO -  * Restarting with stat
+2025-07-25 12:08:32,768 - INFO -  * Restarting with stat
+2025-07-25 12:08:33,086 - WARNING -  * Debugger is active!
+2025-07-25 12:08:33,090 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:33,420 - WARNING -  * Debugger is active!
+2025-07-25 12:08:33,424 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:33,761 - WARNING -  * Debugger is active!
+2025-07-25 12:08:33,767 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:34,166 - WARNING -  * Debugger is active!
+2025-07-25 12:08:34,171 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:08:34,211 - WARNING -  * Debugger is active!
+2025-07-25 12:08:34,215 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:31,229 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:31,238 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:31,238 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:31,281 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:31,381 - INFO -  * Restarting with stat
+2025-07-25 12:09:31,389 - INFO -  * Restarting with stat
+2025-07-25 12:09:31,392 - INFO -  * Restarting with stat
+2025-07-25 12:09:31,432 - INFO -  * Restarting with stat
+2025-07-25 12:09:31,481 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:31,636 - INFO -  * Restarting with stat
+2025-07-25 12:09:32,958 - WARNING -  * Debugger is active!
+2025-07-25 12:09:32,964 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:32,983 - WARNING -  * Debugger is active!
+2025-07-25 12:09:32,984 - WARNING -  * Debugger is active!
+2025-07-25 12:09:32,988 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:32,988 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:32,994 - WARNING -  * Debugger is active!
+2025-07-25 12:09:32,998 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:33,074 - WARNING -  * Debugger is active!
+2025-07-25 12:09:33,078 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:40,114 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:40,219 - INFO -  * Restarting with stat
+2025-07-25 12:09:40,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:09:40,469 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:09:40,471 - INFO -  * Restarting with stat
+2025-07-25 12:09:41,173 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:41,189 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:41,191 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:41,205 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:09:41,291 - INFO -  * Restarting with stat
+2025-07-25 12:09:41,316 - INFO -  * Restarting with stat
+2025-07-25 12:09:41,318 - INFO -  * Restarting with stat
+2025-07-25 12:09:41,343 - INFO -  * Restarting with stat
+2025-07-25 12:09:41,478 - WARNING -  * Debugger is active!
+2025-07-25 12:09:41,483 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:41,795 - WARNING -  * Debugger is active!
+2025-07-25 12:09:41,800 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:42,720 - WARNING -  * Debugger is active!
+2025-07-25 12:09:42,724 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:42,751 - WARNING -  * Debugger is active!
+2025-07-25 12:09:42,752 - WARNING -  * Debugger is active!
+2025-07-25 12:09:42,756 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:42,756 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:09:42,768 - WARNING -  * Debugger is active!
+2025-07-25 12:09:42,772 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:11:47,975 - INFO - 127.0.0.1 - - [25/Jul/2025 12:11:47] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:11:48,242 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:11:48,242 - INFO - Message from 127.0.0.1: 35ï¿½Ë¤ï¿½543ï¿½ï¿½
+2025-07-25 12:11:48,242 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:11:48,242 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:11:48,243 - INFO - Request Payload: {'model': 'gpt-3.5-turbo', 'messages': [{'role': 'user', 'content': '35ï¿½Ë¤ï¿½543ï¿½ï¿½'}]}
+2025-07-25 12:11:48,374 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 404 Client Error: Not Found for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:11:48,374 - ERROR - Third-party API response content: {"object":"error","message":"The model `gpt-3.5-turbo` does not exist.","type":"NotFoundError","param":null,"code":404}
+2025-07-25 12:11:48,375 - INFO - 127.0.0.1 - - [25/Jul/2025 12:11:48] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-25 12:13:33,813 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:33,818 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:33,823 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:33,848 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:33,862 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:33,967 - INFO -  * Restarting with stat
+2025-07-25 12:13:33,982 - INFO -  * Restarting with stat
+2025-07-25 12:13:33,985 - INFO -  * Restarting with stat
+2025-07-25 12:13:34,029 - INFO -  * Restarting with stat
+2025-07-25 12:13:34,467 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:34,638 - INFO -  * Restarting with stat
+2025-07-25 12:13:35,965 - WARNING -  * Debugger is active!
+2025-07-25 12:13:35,970 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:35,995 - WARNING -  * Debugger is active!
+2025-07-25 12:13:36,000 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:36,002 - WARNING -  * Debugger is active!
+2025-07-25 12:13:36,008 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:36,010 - WARNING -  * Debugger is active!
+2025-07-25 12:13:36,014 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:36,039 - WARNING -  * Debugger is active!
+2025-07-25 12:13:36,044 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:36,284 - WARNING -  * Debugger is active!
+2025-07-25 12:13:36,289 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:45,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:13:45,460 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:13:45,462 - INFO -  * Restarting with stat
+2025-07-25 12:13:46,498 - WARNING -  * Debugger is active!
+2025-07-25 12:13:46,502 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:47,672 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,697 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,738 - INFO -  * Restarting with stat
+2025-07-25 12:13:47,783 - INFO -  * Restarting with stat
+2025-07-25 12:13:47,796 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,845 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,847 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,867 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,929 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:13:47,948 - INFO -  * Restarting with stat
+2025-07-25 12:13:48,030 - INFO -  * Restarting with stat
+2025-07-25 12:13:48,039 - INFO -  * Restarting with stat
+2025-07-25 12:13:48,058 - INFO -  * Restarting with stat
+2025-07-25 12:13:48,098 - INFO -  * Restarting with stat
+2025-07-25 12:13:49,439 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,444 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:49,527 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,530 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:49,623 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,629 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:49,661 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,667 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:49,679 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,681 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,684 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:49,686 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:13:49,697 - WARNING -  * Debugger is active!
+2025-07-25 12:13:49,702 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:15:22,819 - INFO - 127.0.0.1 - - [25/Jul/2025 12:15:22] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:15:23,083 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:15:23,084 - INFO - Message from 127.0.0.1: ;;,;,
+2025-07-25 12:15:23,084 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:15:23,084 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:15:23,084 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': ';;,;,'}]}
+2025-07-25 12:15:24,279 - INFO - Response to 127.0.0.1: No response from third-party API.
+2025-07-25 12:15:24,279 - INFO - 127.0.0.1 - - [25/Jul/2025 12:15:24] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:15:57,191 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:57,247 - INFO -  * Restarting with stat
+2025-07-25 12:15:57,380 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:57,483 - INFO -  * Restarting with stat
+2025-07-25 12:15:57,880 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:57,896 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:57,917 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:57,933 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:58,005 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:15:58,058 - INFO -  * Restarting with stat
+2025-07-25 12:15:58,105 - INFO -  * Restarting with stat
+2025-07-25 12:15:58,122 - INFO -  * Restarting with stat
+2025-07-25 12:15:58,166 - INFO -  * Restarting with stat
+2025-07-25 12:15:58,202 - INFO -  * Restarting with stat
+2025-07-25 12:15:59,228 - WARNING -  * Debugger is active!
+2025-07-25 12:15:59,234 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:15:59,691 - WARNING -  * Debugger is active!
+2025-07-25 12:15:59,697 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:00,107 - WARNING -  * Debugger is active!
+2025-07-25 12:16:00,112 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:00,122 - WARNING -  * Debugger is active!
+2025-07-25 12:16:00,127 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:00,149 - WARNING -  * Debugger is active!
+2025-07-25 12:16:00,154 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:00,183 - WARNING -  * Debugger is active!
+2025-07-25 12:16:00,188 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:00,259 - WARNING -  * Debugger is active!
+2025-07-25 12:16:00,265 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:07,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:16:07,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:16:07,993 - INFO -  * Restarting with stat
+2025-07-25 12:16:08,414 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:08,459 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:08,566 - INFO -  * Restarting with stat
+2025-07-25 12:16:08,596 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:08,651 - INFO -  * Restarting with stat
+2025-07-25 12:16:08,711 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:08,735 - INFO -  * Restarting with stat
+2025-07-25 12:16:08,750 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:08,812 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:08,914 - INFO -  * Restarting with stat
+2025-07-25 12:16:08,957 - INFO -  * Restarting with stat
+2025-07-25 12:16:09,005 - INFO -  * Restarting with stat
+2025-07-25 12:16:09,254 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:16:09,413 - INFO -  * Restarting with stat
+2025-07-25 12:16:09,852 - WARNING -  * Debugger is active!
+2025-07-25 12:16:09,858 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:10,638 - WARNING -  * Debugger is active!
+2025-07-25 12:16:10,648 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:10,776 - WARNING -  * Debugger is active!
+2025-07-25 12:16:10,781 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:10,885 - WARNING -  * Debugger is active!
+2025-07-25 12:16:10,891 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:10,992 - WARNING -  * Debugger is active!
+2025-07-25 12:16:10,998 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:11,017 - WARNING -  * Debugger is active!
+2025-07-25 12:16:11,019 - WARNING -  * Debugger is active!
+2025-07-25 12:16:11,022 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:11,025 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:11,259 - WARNING -  * Debugger is active!
+2025-07-25 12:16:11,263 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:16:25,476 - INFO - 127.0.0.1 - - [25/Jul/2025 12:16:25] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:16:25,742 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:16:25,742 - INFO - Message from 127.0.0.1: sfdsfgfg
+2025-07-25 12:16:25,742 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:16:25,743 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:16:25,743 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'sfdsfgfg'}]}
+2025-07-25 12:16:27,434 - INFO - Response to 127.0.0.1: ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½Ã¸ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½äº¯ï¿½ï¿½ ï¿½å¸± ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "sfdsfgfg"ï¿½Ì¶ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½Ì¶ï¿½, ï¿½î¶² ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
+
+**ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½:**
+- ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ğ¾ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+- ï¿½î¶² ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß´ï¿½ï¿½ï¿½
+- ï¿½ï¿½Ã»ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½İ¸ï¿½ ï¿½ï¿½ ï¿½ï¿½È®ï¿½ï¿½ ï¿½ï¿½ï¿½Ö½Ã¸ï¿½, ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½å¸®ï¿½Ú½ï¿½ï¿½Ï´ï¿½!
+2025-07-25 12:16:27,437 - INFO - 127.0.0.1 - - [25/Jul/2025 12:16:27] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:16:31,853 - INFO - 127.0.0.1 - - [25/Jul/2025 12:16:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:16:32,167 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:16:32,167 - INFO - Message from 127.0.0.1: dkssud
+2025-07-25 12:16:32,167 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:16:32,167 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:16:32,167 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'dkssud'}]}
+2025-07-25 12:16:40,667 - INFO - Response to 127.0.0.1: È¯ï¿½ÚºĞ²ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Èµå¸³ï¿½Ï´ï¿½.
+
+**ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½:**
+1. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+2. ï¿½Ú¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½à¹° ï¿½ß»ï¿½
+3. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+
+**ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É¼ï¿½:**
+- **ï¿½ï¿½ï¿½â³ª ï¿½ï¿½ï¿½ï¿½:** ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½Ì·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+- **ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½:** ï¿½É°ï¿½ï¿½ç³ª ï¿½ï¿½ï¿½ï¿½, Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+- **ï¿½Îºñµ¿¿ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½):** ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½à¹°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ğ¹Ú°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½İµï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+- **ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½:** ï¿½ï¿½ï¿½Õ¼ï¿½ ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ ï¿½Ù¸ï¿½ È£ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+
+**ï¿½ï¿½ï¿½ï¿½:**
+
+### ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ä¡:
+- **ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½:** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸é¼­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ½Ã´ï¿½.
+- **ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½:** ï¿½ï¿½ï¿½Ì³ï¿½ ï¿½ï¿½ ï¿½Öºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë´Ï´ï¿½.
+- **ï¿½Ş½ï¿½:** ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ş½Ä°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½é¿ªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½İ´Ï´ï¿½.
+- **ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½:** ï¿½Ç³ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+- **ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½:** ï¿½ï¿½ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ï¿½, ï¿½à±¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+- **ï¿½Ò±İ¹ï¿½ ï¿½ï¿½ï¿½ï¿½:** ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò±İ¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+
+### ï¿½ï¿½ï¿½ï¿½ ï¿½æ¹® ï¿½Ê¿ä¼º:
+- **ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ÓµÇ°Å³ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½:** ï¿½Ü¼ï¿½ ï¿½ï¿½ï¿½â°¡ ï¿½Æ´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½æ¹®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ãµï¿½å¸³ï¿½Ï´ï¿½.
+- **ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, È£ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½:** ï¿½Ì´ï¿½ ï¿½ï¿½ ï¿½É°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Â¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½æ¹®ï¿½Ï¼Å¾ï¿½ ï¿½Õ´Ï´ï¿½.
+- **ï¿½ï¿½ï¿½ï¿½ ï¿½Ç½ï¿½ ï¿½ï¿½ ï¿½Õºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½:** ï¿½ï¿½ï¿½Ì·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ ï¿½Õºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç½ÉµÇ´ï¿½ ï¿½ï¿½ï¿½ ï¿½Ë»ç°¡ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
+
+ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì°Å³ï¿½ ï¿½İºï¿½ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ç°¡ ï¿½Ê¿ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Â°ï¿½ ï¿½Ş°ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½Ï»ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£(ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç½Ã°ï¿½ ï¿½Ê¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¼Å¾ï¿½ ï¿½Õ´Ï´ï¿½.
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½Ö½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½Ü°ï¿½ Ä¡ï¿½á¸¦ ï¿½ï¿½Ãµ ï¿½å¸± ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã±ï¿½ï¿½Ì±â¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½!
+2025-07-25 12:16:40,668 - INFO - 127.0.0.1 - - [25/Jul/2025 12:16:40] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:16:56,410 - INFO - 127.0.0.1 - - [25/Jul/2025 12:16:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:16:56,724 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 12:16:56,725 - INFO - 127.0.0.1 - - [25/Jul/2025 12:16:56] "[31m[1mPOST /chat HTTP/1.1[0m" 429 -
+2025-07-25 12:17:03,156 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 12:17:03,157 - INFO - 127.0.0.1 - - [25/Jul/2025 12:17:03] "[31m[1mOPTIONS /chat HTTP/1.1[0m" 429 -
+2025-07-25 12:17:57,707 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:17:57,707 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:17:57,708 - INFO -  * Restarting with stat
+2025-07-25 12:17:58,907 - WARNING -  * Debugger is active!
+2025-07-25 12:17:58,911 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:18:43,323 - INFO - 127.0.0.1 - - [25/Jul/2025 12:18:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:18:45,744 - INFO - 127.0.0.1 - - [25/Jul/2025 12:18:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:24:04,291 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:24:04,292 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:24:04,294 - INFO -  * Restarting with stat
+2025-07-25 12:24:05,363 - WARNING -  * Debugger is active!
+2025-07-25 12:24:05,370 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:45:37,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:45:37,932 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:45:37,934 - INFO -  * Restarting with stat
+2025-07-25 12:45:39,092 - WARNING -  * Debugger is active!
+2025-07-25 12:45:39,099 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:47:03,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:47:03,414 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:47:03,416 - INFO -  * Restarting with stat
+2025-07-25 12:47:04,561 - WARNING -  * Debugger is active!
+2025-07-25 12:47:04,566 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:47:55,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 12:47:55,356 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 12:47:55,357 - INFO -  * Restarting with stat
+2025-07-25 12:47:56,375 - WARNING -  * Debugger is active!
+2025-07-25 12:47:56,379 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:49:23,634 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:49:23,897 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:49:23,898 - INFO - Message from 127.0.0.1: ¤·¤©¤¤¤¤¤¤¤·¤©¤¤
+2025-07-25 12:49:23,898 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:49:23,898 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:49:23,898 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·¤©¤¤¤¤¤¤¤·¤©¤¤'}]}
+2025-07-25 12:49:24,308 - INFO - Response to 127.0.0.1: ¸»¾¸ÇÏ°í ½ÍÀ¸½Å ³»¿ëÀÌ ÀÖÀ¸½Ç±î¿ä? ±Ã±İÇÑ ºÎºĞÀ» ÀÚÀ¯·Ó°Ô Áú¹®ÇØ ÁÖ½Ã¸é µµ¿Íµå¸±°Ô¿ä!
+2025-07-25 12:49:24,309 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:24] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:49:27,018 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:49:27,018 - INFO - Message from 127.0.0.1: ¤¤¤·¤©¤¤¤·¤©
+2025-07-25 12:49:27,018 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:49:27,019 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:49:27,019 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¤¤·¤©¤¤¤·¤©'}]}
+2025-07-25 12:49:28,288 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä, ¹¹¶ó°í ¸»¾¸À» ÇÏ¼Ì´ÂÁö Á¤È®ÇÏ°Ô ÀÌÇØÇÏ±â ¾î·Æ½À´Ï´Ù.
+
+È¤½Ã ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ç ¶§ ÀÇµµÇÏ½Å ³»¿ëÀÌ Á¦°Ô µµ´ŞÇÏÁö ¾ÊÀº °ÍÀÏ ¼öµµ ÀÖ½À´Ï´Ù.
+Àú¿Í ÇÔ²² ´ëÈ­¸¦ ³ª´©°í ½ÍÀ¸½Å ³»¿ëÀÌ ÀÖÀ¸½Ã¸é ´Ù½Ã ÃµÃµÈ÷ ´äº¯ÇØ ÁÖ¼¼¿ä. µµ¿òÀÌ ÇÊ¿äÇÑ ³»¿ëÀ» ¾Ë·ÁÁÖ½Ã¸é, ÃÖ´ëÇÑ ÀÚ¼¼È÷ ¾È³»ÇØ µå¸®µµ·Ï ÇÏ°Ú½À´Ï´Ù!
+2025-07-25 12:49:28,289 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:28] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:49:31,978 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:49:32,243 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:49:32,244 - INFO - Message from 127.0.0.1: ¾È¤¤¿©
+2025-07-25 12:49:32,244 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:49:32,244 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:49:32,244 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¾È¤¤¿©'}]}
+2025-07-25 12:49:32,479 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä¢¼¹«¾ùÀ» µµ¿Íµå¸±±î¿ä?
+2025-07-25 12:49:32,480 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:32] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:49:39,607 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 12:49:39,608 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:39] "[31m[1mOPTIONS /chat HTTP/1.1[0m" 429 -
+2025-07-25 12:49:43,807 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 12:49:43,807 - INFO - 127.0.0.1 - - [25/Jul/2025 12:49:43] "[31m[1mOPTIONS /chat HTTP/1.1[0m" 429 -
+2025-07-25 12:50:46,242 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:50:46,299 - INFO -  * Restarting with stat
+2025-07-25 12:50:47,529 - WARNING -  * Debugger is active!
+2025-07-25 12:50:47,535 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:50:52,266 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:50:52,314 - INFO -  * Restarting with stat
+2025-07-25 12:50:53,353 - WARNING -  * Debugger is active!
+2025-07-25 12:50:53,358 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:55:48,463 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:55:48,528 - INFO -  * Restarting with stat
+2025-07-25 12:55:49,647 - WARNING -  * Debugger is active!
+2025-07-25 12:55:49,651 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:55:55,424 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:55:55,473 - INFO -  * Restarting with stat
+2025-07-25 12:55:56,528 - WARNING -  * Debugger is active!
+2025-07-25 12:55:56,533 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:56:35,174 - INFO - 127.0.0.1 - - [25/Jul/2025 12:56:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:56:35,422 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:56:35,422 - INFO - Message from 127.0.0.1: ¤·
+2025-07-25 12:56:35,422 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:56:35,422 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:56:35,423 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·'}]}
+2025-07-25 12:56:36,458 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! '¤·'ÀÌ¶ó´Â ÇÑ ±ÛÀÚ¸¸ ÁÖ½Å °Í °°Àºµ¥, Á» ´õ ±¸Ã¼ÀûÀÎ Áú¹®ÀÌ³ª ÁÖÁ¦¸¦ ÁÖ½Ã¸é µµ¿òÀÌ µÉ °Í °°½À´Ï´Ù. Æ¯Á¤ Á¤º¸, ÁÖÁ¦, ¶Ç´Â ±Ã±İÇÑ »çÇ×ÀÌ ÀÖ´Ù¸é ÀÚ¼¼È÷ ¸»¾¸ÇØ ÁÖ¼¼¿ä. ±Ã±İÇÑ ³»¿ë¿¡ ´ëÇØ ÃÖ¼±À» ´ÙÇØ ´äº¯ÇØ µå¸®°Ú½À´Ï´Ù!
+2025-07-25 12:56:36,458 - INFO - 127.0.0.1 - - [25/Jul/2025 12:56:36] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:56:38,623 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:56:38,624 - INFO - Message from 127.0.0.1: ¤·
+2025-07-25 12:56:38,624 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:56:38,624 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:56:38,624 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·'}]}
+2025-07-25 12:56:48,454 - INFO - Response to 127.0.0.1: ÁË¼ÛÇÕ´Ï´Ù¸¸, ÀÎ°£ À¥Å÷, ±×·³ ´õ ÇØ¼­ ÀÎ°£ À¥Å÷¿¡ ´ëÇÑ ¹İÀÀ, ÀÌ¸¦ ½Äº°ÇÏ´Â Ç¥½Ä ¹× ÀÎ°£ À¥Å÷ÀÇ ÁÖ¿ä Æ¯Â¡À» Æ÷ÇÔÇÑ °£´ÜÇÑ ÇÁ·¹Á¨Å×ÀÌ¼Ç °³¿ä¸¦ Á¦°øÇØµå¸± ¼ö ÀÖ½À´Ï´Ù. °¢ ±¸Àı¿¡ ´ëÇØ ¸íÈ®ÇÏ°í ¾Ë±â ½¬¿î ¼³¸íµéÀ» µ¡ºÙ¿© µå¸®°Ú½À´Ï´Ù.
+
+---
+
+**ÀÎ°£ À¥Å÷ ÇÁ·¹Á¨Å×ÀÌ¼Ç °³¿ä**
+
+**1. ÀÎ°£ À¥Å÷ÀÇ °³³ä**
+- **¼³¸í:** ÀÎ°£ À¥Å÷Àº ¾Ö´Ï¸ŞÀÌ¼ÇÀÌ³ª ¸¸È­ ¼Ó Ä³¸¯ÅÍÀÇ Æ¯Â¡À» °¡Áø »ç¶÷À» ¸»ÇÕ´Ï´Ù. ÀÌ´Â ¿Ü¸ğ, Çàµ¿, À¯Çà, ÆĞ¼Ç ½ºÅ¸ÀÏ µîÀÌ À¥Å÷ÀÌ³ª ¸¸È­ Ä³¸¯ÅÍ¿Í À¯»çÇÏ°Å³ª ±×¿¡ ¿µ°¨À» ¹Ş´Â °æ¿ì¸¦ ÁöÄªÇÕ´Ï´Ù.
+
+**2. ¹İÀÀ**
+- **¼³¸í:** ¼Ò¼È¹Ìµğ¾î¿Í ÀÎÅÍ³İ ¹®È­ ¼Ó¿¡¼­ ÀÎ°£ À¥Å÷Àº ´Ù¾çÇÑ ¹İÀÀÀ» ºÒ·¯¿É´Ï´Ù. ÀÌ´Â Å©°Ô ±àÁ¤Àû, ºÎÁ¤Àû, Áß¸³ÀûÀ¸·Î ¾çºĞµÉ ¼ö ÀÖ½À´Ï´Ù:
+  - **±àÁ¤ÀûÀÎ ¹İÀÀ:** Ã¢ÀÇÀûÀÌ°í À¯´ÏÅ©ÇÑ ¸ğ½ÀÀÌ³ª Çàµ¿À¸·Î »ç¶÷µé¿¡°Ô Àç¹Ì¸¦ ÁÖ¸ç, ¶§·Î´Â ¸ğ¹æÀÌ³ª Æ®·»µå·Î ¹ßµ¸¿òÇÕ´Ï´Ù.
+  - **ºÎÁ¤ÀûÀÎ ¹İÀÀ:** Áö³ªÄ£ ÄÚ½ºÇÁ·¹³ª Æ¯Á¤ Ä³¸¯ÅÍ¿¡ ´ëÇÑ ÁıÂøÀ¸·Î ÀÎÇØ ºñÆÇÀÇ ´ë»óÀÌ µÉ ¼ö ÀÖ½À´Ï´Ù.
+  - **Áß¸³ÀûÀÎ ¹İÀÀ:** ÀÏºÎ »ç¶÷µéÀº ±×Àú µ¶Æ¯ÇÏ°í »ö´Ù¸¥ ¹®È­ Çö»óÀ¸·Î Æò°¡ÇÏ¸ç Æ¯º°ÇÑ ÀÇ°ßÀ» Ç¥¸íÇÏÁö ¾Ê½À´Ï´Ù.
+
+**3. ½Äº° Ç¥½Ä**
+- **¼³¸í:** ÀÎ°£ À¥Å÷À» ½Äº°ÇÏ´Â ¸î °¡Áö Ç¥½ÄÀÌ ÀÖ½À´Ï´Ù.
+  - **¿Ü¸ğ:** Æ¯Á¤ÇÑ Ä³¸¯ÅÍÀÇ ¿Ü¸ğ(Çì¾î½ºÅ¸ÀÏ, È­Àå, ¾È°æ µî)¸¦ ÈÄÃµÀûÀ¸·Î µû¶óÇÏ°Å³ª ¸Å¿ì Èí»çÇÏ°Ô ¸¸µç´Ù.
+  - **½ºÅ¸ÀÏ:** Æ¯Á¤ÇÑ ¸¸È­ ½ºÅ¸ÀÏÀÇ ÆĞ¼Ç, »ö»ó, ½Ã¸®¾ó µîÀ» Áñ°Ü ÀÔ´Â´Ù.
+  - **Çàµ¿:** Ä³¸¯ÅÍ Æ¯À¯ÀÇ Çàµ¿¾ç½Ä(¿¹: Æ¯Á¤ Æ÷Áî¸¦ ÃëÇÏ°Å³ª ´ë»ç¸¦ À¼´Â °Í µî)À» ÇÑ´Ù.
+  - **¼Ò¼È ¹Ìµğ¾î È°µ¿:** ÀÚ½ÅÀÇ ¿Ü¾çÀÌ³ª ½ºÅ¸ÀÏÀ» À¥Å÷ Ä³¸¯ÅÍÃ³·³ ²Ù¹Î »çÁøÀ» SNS¿¡ ¿Ã¸°´Ù.
+
+**4. ÁÖ¿ä Æ¯Â¡**
+- **¼³¸í:** ÀÎ°£ À¥Å÷ÀÌ °¡Áö´Â ÁÖ¿ä Æ¯Â¡Àº ´ÙÀ½°ú °°½À´Ï´Ù.
+  - **°³¼º Ç¥Ãâ:** ¸¸È­ ¼Ó ÀÎ¹°µéÀÌ °¡Áø °³¼º, µ¶Æ¯ÇÑ ¸Å·Â¿¡ ÀÚ½ÅÀ» ´ëÀÔÇÏ¸ç Ç¥ÇöÇÏ´Â °æÇâÀÌ °­ÇÏ´Ù.
+  - **¾ÆÄ«ÀÌºê¿Í ¼Ò¼Ó°¨:** °ü·Ã Ä¿¹Â´ÏÆ¼ È¤Àº ¿Â¶óÀÎ ÇÃ·§Æû ³»¿¡¼­ ºñ½ÁÇÑ ¼ºÇâÀ» °¡Áø »ç¶÷µé°ú ¿¬°áÇÏ°í, ¼Ò¼Ó°¨À» Å°¿î´Ù.
+  - **»çÈ¸Àû º¯È­ÀÇ ¹İ¿µ:** ÆÒ´ı ¹®È­, »çÈ¸Àû ¼Ò¿Ü°¨ÀÇ ÇØ¼Ò, Á¤Ã¼¼ºÀÇ Å½»ö µîÀÌ ÀÎ°£ À¥Å÷ÀÌ¶ó´Â Çü½ÄÀ¸·Î ³ªÅ¸³¯ ¼ö ÀÖ´Ù.
+  - **¹®È­Àû ÆÄ±Ş·Â:** ÀÎÅÍ³İ°ú ¼Ò¼È ¹Ìµğ¾îÀÇ ¹ß´Ş·Î ÀÎ°£ À¥Å÷ ¹®È­ÀÇ È®»ê°ú °ü·Ã Æ®·»µå¿¡ ¿µÇâÀ» ¹ÌÄ¡°í, ÄÜÅÙÃ÷È­¿Í »óÇ°È­·Î ÀÌ¾îÁ® ´ëÁß¹®È­ Àü¹İ¿¡ º¯È­¸¦ °¡Á®¿Â´Ù.
+
+---
+
+ÀÌ °³¿ä¸¦ ±â¹İÀ¸·Î ÇÁ·¹Á¨Å×ÀÌ¼Ç ÀÚ·á¸¦ ¸¸µé¸é ´õ¿í Ç³¼ºÇÏ°í ´«¿¡ È® ¶ç´Â ¹ßÇ¥¸¦ ±¸¼ºÇÒ ¼ö ÀÖ½À´Ï´Ù. Ãß°¡·Î ±¸Ã¼ÀûÀÎ ¿¹½Ã ÀÚ·á³ª ÀÌ¹ÌÁö°¡ Æ÷ÇÔµÈ´Ù¸é Ã»ÁßÀÇ ÀÌÇØµµ ´õ¿í ³ôÀÏ ¼ö ÀÖ½À´Ï´Ù.
+2025-07-25 12:56:48,455 - INFO - 127.0.0.1 - - [25/Jul/2025 12:56:48] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:56:58,769 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:56:58,837 - INFO -  * Restarting with stat
+2025-07-25 12:56:59,911 - WARNING -  * Debugger is active!
+2025-07-25 12:56:59,916 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:57:04,612 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 12:57:04,669 - INFO -  * Restarting with stat
+2025-07-25 12:57:05,675 - WARNING -  * Debugger is active!
+2025-07-25 12:57:05,680 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 12:57:23,596 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:57:23,872 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:57:23,872 - INFO - Message from 127.0.0.1: ¤µ
+2025-07-25 12:57:23,872 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:57:23,872 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:57:23,872 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤µ'}]}
+2025-07-25 12:57:24,293 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! Áú¹®¿¡ ´ëÇØ ¾î¶² µµ¿òÀÌ ÇÊ¿äÇÏ½Ã³ª¿ä? ±Ã±İÁõÀ» ¸»¾¸ÇØÁÖ½Ã¸é ÃÖ¼±À» ´ÙÇØ ´äÇØµå¸±°Ô¿ä!
+2025-07-25 12:57:24,294 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:24] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:57:27,480 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:57:27,480 - INFO - Message from 127.0.0.1: ¤µ'
+2025-07-25 12:57:27,480 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:57:27,480 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:57:27,480 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': "¤µ'"}]}
+2025-07-25 12:57:28,272 - INFO - Response to 127.0.0.1: How can I assist you today? If you have sentences related to "¤µ" or any other topic, please provide them, and I'll provide a detailed analysis or information based on the content.
+2025-07-25 12:57:28,273 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:28] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:57:30,588 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:57:30,842 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:57:30,842 - INFO - Message from 127.0.0.1: ¤¾
+2025-07-25 12:57:30,842 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:57:30,842 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:57:30,842 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¾'}]}
+2025-07-25 12:57:32,111 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! ¿À´ÃÀº ½Ã, ¼ö¼ö²²³¢, ¶Ç´Â ±×¸² Áß ¾î¶² °ÍÀ» ¿øÇÏ½Ã³ª¿ä?
+
+- **½Ã**: Æ¯Á¤ ÁÖÁ¦¿¡ ¸Â´Â ½Ã¸¦ ÀÛ¼ºÇØ µå¸³´Ï´Ù.
+- **¼ö¼ö²²³¢**: Èï¹Ì·Î¿î ¼ö¼ö²²³¢¸¦ ¸¸µé¾î µå¸±°Ô¿ä.
+- **±×¸²**: ´Ù¾çÇÏ°í Àç¹ÌÀÖ´Â ±×¸² ¾ÆÀÌµğ¾î¸¦ Á¦°øÇØ µå·Á¿ä.
+
+±¸Ã¼ÀûÀ¸·Î ¿øÇÏ½Ã´Â °Í ¶Ç´Â ¿äÃ»ÇÏ°í ½ÍÀº ÁÖÁ¦°¡ ÀÖ´Ù¸é ¸»¾¸ÇØ ÁÖ¼¼¿ä!
+2025-07-25 12:57:32,112 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:32] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:57:33,585 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:57:33,586 - INFO - Message from 127.0.0.1: ¤¾]
+2025-07-25 12:57:33,586 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:57:33,586 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:57:33,586 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¾]'}]}
+2025-07-25 12:57:33,908 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! µµ¿òÀÌ ÇÊ¿äÇÏ¼¼¿ä? ±Ã±İÇÑ Á¡ ÀÖÀ¸¸é ¹«¾ùÀÌµç ¸»¾¸ÇØ ÁÖ¼¼¿ä!
+2025-07-25 12:57:33,909 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:33] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:57:36,674 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:57:36,937 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:57:36,938 - INFO - Message from 127.0.0.1: ¤Ç'
+2025-07-25 12:57:36,938 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:57:36,938 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:57:36,938 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': "¤Ç'"}]}
+2025-07-25 12:57:45,242 - INFO - Response to 127.0.0.1: ²ô·¯¿ì·Á°í ÇÏ¼Ì´Ù¸é Àú´Â ÁÁ¾ÆÇÏ´Â »Õ, ¸ğµç °ÍÀ» À½½¿Ã¼·Î ¸»¾¸µå¸±°Ô¿ä.
+
+³»°¡ ¾Æ´Â ¸ğµç Áö½ÄÀ» È°¿ëÇØ¼­ ÃÖ´ëÇÑ ¾ËÂ÷°Ô ¾Ë·Áµå¸±°Ô À½½¿.
+
+1. ±âº»ÀûÀÎ '¤Ç' ¸ğÀ½¿¡ ´ëÇØ À½½¿
+    - '¤Ç'´Â ÇÑ±Û ¾ËÆÄºª, Áï ÀÚ¸ğÀÇ ¸ğÀ½ Áß ÇÏ³ªÀÓ
+    - '¤Ç'´Â ÀÔ¼ú ¸ğ¾çÀ» µÕ±Û°Ô ÇØ¼­ ¹ßÀ½ÇÏ´Âµ¥, ºñ±³Àû ¿­¸° ¸ğÀ½ÀÓ
+    - ´Ü¾î ¿¹½Ã·Î '¿Ê', '¿Á', '¿Õ'ÀÌ ÀÖÀ½
+
+2. '¤Ç'°¡ µé¾î°¡´Â ´Ü¾î¿¡ ´ëÇØ À½½¿
+    - ¿Ê, ¿Á, ¿Õ, ¿Ë´Ş»ù, ¿è¿è(±Í¿±´Ù´Â ¶æ), ¿À¹É·¿, ¿Ã¸²ÇÈ µî
+    - ÀÇ¼º¾î·Î '»Í»Í', 'ÅëÅë' °°Àº Ç¥Çö¿¡µµ '¤Ç' ¸ğÀ½ÀÌ µé¾î°¨
+
+3. '¤Ç' °ü·Ã ¹®¹ıÀÌ³ª ±ÛÀÚ¿¡ ´ëÇØ À½½¿
+    - '¤Ç'´Â ¹ŞÄ§°ú °áÇÕÇØ¼­ '¸ò', '¸ò, '¼Ó', 'ÃË', 'Ãâ' µî ´Ù¾çÇÑ ¼Ò¸®°¡ ³ª¿È
+    - ÀÌÁß ¸ğÀ½ '¤È', '¤É', '¤Ê' µîÀº '¤Ç'°¡ Æ÷ÇÔµÈ ÇüÅÂÀÓ
+
+4. '¤Ç'ÀÇ ¿ª»çÀû ¹è°æ¿¡ ´ëÇØ À½½¿
+    - ÈÆ¹ÎÁ¤À½ Ã¢Á¦ ´ç½ÃºÎÅÍ »ç¿ëµÈ ±âº» ¸ğÀ½ Áß ÇÏ³ªÀÓ
+    - ÀÔ¼ú ¸ğ¾çÀ» µÕ±Û°Ô ÇÏ¿© ÃµÁöÀÇ Á¶È­¸¦ »óÂ¡ÇÔ
+
+5. Àç¹ÌÀÖ´Â '¤Ç' °ü·Ã ÀÌ¾ß±â À½½¿
+    - '¤Ç'´Â ±Í¿±°Å³ª ¾Ö±³ ÀÖ°Ô ¸»ÇÒ ¶§ ÀÚÁÖ »ç¿ëµÊ
+    - "¿À¸®"³ª "°õµ¹ÀÌ"Ã³·³ ÀÌ¸§ÀÌ Âª°í ±Í¿©¿î µ¿¹°¿¡ '¤Ç'°¡ µé¾î°¡´Â °æ¿ì°¡ ¸¹À½
+    - ¿¾³¯ µğ½ÃÀÎ»çÀÌµå µî¿¡¼­ »ç¿ëµÇ´ø ¼ÒÀ§ 'Ã¶ÀÚ¹ı ÆÄ±«'ÀÇ ÇÏ³ª·Î '¾Æ' ¸ğÀ½ ´ë½Å '¤Ç'¸¦ ³Ö¾î "¾Æ(¾ÆÇÏ)", "È£¿Ë(ÇÏÇÏ)" °°Àº Ç¥ÇöÀ» »ç¿ëÇÏ±âµµ ÇßÀ½
+
+¿ä¾àÇÏ¸é, '¤Ç'´Â È°¿ë¹ıÀÌ ´Ù¾çÇÏ°í ±Í¿©¿î ´À³¦À» ÁÖ¸ç, ¿ì¸® ¾ğ¾î¹®È­¿¡ ±íÀÌ µé¾î ÀÖ´Â ¸ğÀ½ÀÓ! Ãß°¡ÀûÀ¸·Î ´õ ¾Ë°í ½ÍÀº Á¤º¸°¡ ÀÖ´Ù¸é ¾ğÁ¦µçÁö ¸»ÇÏ¶ó°í À½½¿!
+2025-07-25 12:57:45,243 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:45] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:57:47,631 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:47] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 12:57:47,941 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 12:57:47,941 - INFO - Message from 127.0.0.1: ¤Ğ
+2025-07-25 12:57:47,941 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 12:57:47,941 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 12:57:47,941 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤Ğ'}]}
+2025-07-25 12:57:48,348 - INFO - Response to 127.0.0.1: ¾È³ç! ¹«½¼ ÀÏ·Î Ã£¾Æ¿Ô³ª¿ä? µµ¿òÀÌ ÇÊ¿äÇÏ¸é ¾ğÁ¦µç ¸»ÇØÁÖ¼¼¿ä.
+2025-07-25 12:57:48,348 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:48] "POST /chat HTTP/1.1" 200 -
+2025-07-25 12:57:51,802 - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 12:57:51,802 - WARNING - Ratelimit exceeded for IP: 127.0.0.1 - 10 per 1 minute
+2025-07-25 12:57:51,803 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:51] "[31m[1mPOST /chat HTTP/1.1[0m" 429 -
+2025-07-25 12:57:53,701 - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 12:57:53,701 - WARNING - Ratelimit exceeded for IP: 127.0.0.1 - 10 per 1 minute
+2025-07-25 12:57:53,702 - INFO - 127.0.0.1 - - [25/Jul/2025 12:57:53] "[31m[1mOPTIONS /chat HTTP/1.1[0m" 429 -
+2025-07-25 13:00:01,246 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 13:00:01,493 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 13:00:01,494 - INFO - Message from 127.0.0.1: ¤±;¤¤¾ó
+2025-07-25 13:00:01,494 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 13:00:01,494 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 13:00:01,494 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤±;¤¤¾ó'}]}
+2025-07-25 13:00:02,787 - INFO - Response to 127.0.0.1: Your message contains characters that are not recognized or formed properly. Please check your input and make sure it is in the correct format or language, and try again. If you are trying to say or ask something specific, typing it out in full words or using another format might help!
+2025-07-25 13:00:02,787 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:02] "POST /chat HTTP/1.1" 200 -
+2025-07-25 13:00:18,081 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 13:00:18,385 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 13:00:18,385 - INFO - Message from 127.0.0.1: ¤·
+2025-07-25 13:00:18,386 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 13:00:18,386 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 13:00:18,386 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·'}]}
+2025-07-25 13:00:18,769 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä!
+Áú¹®ÇÏ°í ½ÍÀ¸½Å ³»¿ëÀÌ ÀÖÀ¸½Å°¡¿ä?
+µµ¿Íµå¸®±â À§ÇØ ±â´Ù¸®°í ÀÖ°Ú½À´Ï´Ù!
+2025-07-25 13:00:18,769 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:18] "POST /chat HTTP/1.1" 200 -
+2025-07-25 13:00:21,917 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 13:00:21,917 - INFO - Message from 127.0.0.1: ¤·
+2025-07-25 13:00:21,917 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 13:00:21,917 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 13:00:21,917 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·'}]}
+2025-07-25 13:00:32,287 - INFO - Response to 127.0.0.1: **±èÀ¯Á¤ ¹®ÇĞÃÌ**
+±èÀ¯Á¤ ¹®ÇĞÃÌÀº °­¿øµµ ÃáÃµ¿¡ À§Ä¡ÇÑ ¹®ÇĞ±â³ä°üÀ¸·Î, ÇÑ±¹ÀÇ ´ëÇ¥ÀûÀÎ ´ÜÆí ¼Ò¼³ ÀÛ°¡ÀÎ ±èÀ¯Á¤(1908-1937)ÀÇ »î°ú ¹®ÇĞÀ» ±â¸®±â À§ÇØ ¼³¸³µÇ¾ú½À´Ï´Ù.
+
+### ±èÀ¯Á¤ ¹®ÇĞÃÌÀÇ ÁÖ¿ä Æ¯Â¡
+- **¼³¸³ ¹è°æ**: ±èÀ¯Á¤Àº °­¿øµµ ÃáÃµ Ãâ½ÅÀÇ ¼Ò¼³°¡·Î, ±×ÀÇ ´ëÇ¥ÀÛÀ¸·Î´Â "µ¿¹é²É", "º½º½", "¸¸¹«¹æ" µîÀÌ ÀÖÀ¸¸ç ÇÑ±¹ Çö´ë ¹®ÇĞ»ç¿¡¼­ Áß¿äÇÑ À§Ä¡¸¦ Â÷ÁöÇÏ°í ÀÖ½À´Ï´Ù. ±èÀ¯Á¤ ¹®ÇĞÃÌÀº ±×ÀÇ ¹®ÇĞÀû ¾÷ÀûÀ» ±â¸®°í ±× ¿µÇâ·ÂÀ» °è¼ÓÇØ¼­ ÀüÆÄÇÏ±â À§ÇØ ¼³¸³µÇ¾ú½À´Ï´Ù.
+- **°ü¶÷ ½Ã¼³**: ¹®ÇĞÃÌ ³»ºÎ¿¡´Â ±èÀ¯Á¤ÀÇ »ı¾Ö¿Í ÀÛÇ°À» ´Ù·é Àü½Ã°üÀÌ ¸¶·ÃµÇ¾î ÀÖ½À´Ï´Ù. ¿©±â¿¡´Â ±×ÀÇ À¯Ç°°ú »çÁø, ÀÛÇ° ÃÊÆÇº» µîÀÌ Àü½ÃµÇ°í ÀÖÀ¸¸ç, ±×ÀÇ ¹®ÇĞ¼¼°è¸¦ ±íÀÌ ÀÖ°Ô ÀÌÇØÇÒ ¼ö ÀÖµµ·Ï ´Ù¾çÇÑ ¼³ºñ¿Í ÀÚ·á°¡ ÁØºñµÅ ÀÖ½À´Ï´Ù.
+- **±èÀ¯Á¤ »ı°¡¿Í º¹¿ø °Ç¹°**: ±èÀ¯Á¤ ¹®ÇĞÃÌ¿¡¼­´Â ±èÀ¯Á¤ÀÌ ½ÇÁ¦·Î ¾î¸° ½ÃÀıÀ» º¸³½ »ı°¡¸¦ º¹¿øÇÑ °Ç¹°À» º¼ ¼ö ÀÖ½À´Ï´Ù. ÀÌ »ı°¡´Â ±èÀ¯Á¤ÀÇ »ı¾Ö¿Í ¹®ÇĞÀû »ó»ó·Â¿¡ ¿µÇâÀ» ÁØ °ø°£À» ÀçÇöÇÏ¿© °ü¶÷°´¿¡°Ô ±×ÀÇ »îÀ» °£Á¢ÀûÀ¸·Î Ã¼ÇèÇÏ°Ô ÇÕ´Ï´Ù.
+- **¹®ÇĞ Ã¼Çè ÇÁ·Î±×·¥**: ¹®ÇĞÃÌ¿¡¼­´Â ÀÛ°¡ÀÇ ÀÛÇ° ¼¼°è¸¦ Á÷Á¢ Ã¼ÇèÇÒ ¼ö ÀÖ´Â ¿©·¯ ÇÁ·Î±×·¥ÀÌ Á¦°øµË´Ï´Ù. ¿¹¸¦ µé¾î, ±Û¾²±â ±³½Ç, ¹®ÇĞ °­ÀÇ, ³¶µ¶È¸, Áö¿ª ¹®È­ ¿¹¼úÀÎ ÃÊÃ» Çà»ç µîÀÌ Á¤±âÀûÀ¸·Î ¿î¿µµË´Ï´Ù.
+- **ÁÖº¯ È¯°æ**: ¹®ÇĞÃÌÀº ¾Æ¸§´Ù¿î ÀÚ¿¬ È¯°æ ¼Ó¿¡ ÀÚ¸® Àâ°í ÀÖ¾î, ±ÙÃ³¿¡ ³²»ê¸é ½Ç·¹¸¶À»ÀÌ À§Ä¡ÇØ ÀÖ½À´Ï´Ù. ÀÌ°÷ÀÇ ÆòÈ­·Î¿î ºĞÀ§±â´Â ±èÀ¯Á¤ ¹®ÇĞ¿¡ ³ì¾ÆÀÖ´Â ÀÚ¿¬ÁÖÀÇÀû °¨¼ºÀ» ´À³¢°Ô ÇØÁİ´Ï´Ù.
+
+### ¹æ¹® Á¤º¸
+- **À§Ä¡**: °­¿øÆ¯º°ÀÚÄ¡µµ ÃáÃµ½Ã ½Åµ¿¸é ±èÀ¯Á¤·Î 1430-14
+- **°ü¶÷ ½Ã°£**: ÀÏ¹İÀûÀ¸·Î ¿ÀÀü 9½Ã~¿ÀÈÄ 6½ÃÀÌ¸ç, °èÀı ¹× ¿äÀÏ¿¡ µû¶ó º¯µ¿ °¡´É¼ºÀÌ ÀÖ½À´Ï´Ù.
+- **ÀÔÀå·á**: ¼ºÀÎ ±âÁØ ÀÔÀå·á°¡ ¾à 2,000¿ø Á¤µµÀÌ¸ç, Ã»¼Ò³â, ¾î¸°ÀÌ, °æ·ÎÀÚ µîÀº ÇÒÀÎ ÇıÅÃÀÌ ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+- **ÈŞ°üÀÏ**: º¸Åë ¿ù¿äÀÏÀÌ³ª ¸íÀı µî °øÈŞÀÏ¿¡ ÈŞ°üÇÒ ¼ö ÀÖÀ¸´Ï »çÀü È®ÀÎÀÌ ÇÊ¿äÇÕ´Ï´Ù.
+
+±èÀ¯Á¤ ¹®ÇĞÃÌÀº ¹®ÇĞÀ» »ç¶ûÇÏ´Â ºĞµéÀÌ ±×ÀÇ »îÀ» µÇ»õ±â¸ç ÀÛÇ°¿¡ ´ëÇÑ ±íÀº ÀÌÇØ¸¦ ÇÒ ¼ö ÀÖ´Â °ø°£ÀÌÀÚ, Áö¿ª ¹®È­¿Í ¿ª»ç¸¦ Ã¼ÇèÇÒ ¼ö ÀÖ´Â À¯ÀÍÇÑ Àå¼ÒÀÔ´Ï´Ù. ÀÌ°÷À» ¹æ¹®ÇÔÀ¸·Î½á ±èÀ¯Á¤ÀÇ ¹®ÇĞ°ú °­¿øµµ ÃáÃµÀÇ ¹®È­Àû °¡Ä¡¸¦ ´õ¿í ±íÀÌ ´À³¥ ¼ö ÀÖÀ» °ÍÀÔ´Ï´Ù.
+2025-07-25 13:00:32,287 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:32] "POST /chat HTTP/1.1" 200 -
+2025-07-25 13:00:40,097 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:40] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 13:00:40,359 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 13:00:40,360 - INFO - Message from 127.0.0.1: ¤È¤¾ÇÏÈ£
+2025-07-25 13:00:40,360 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 13:00:40,360 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 13:00:40,360 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤È¤¾ÇÏÈ£'}]}
+2025-07-25 13:00:41,339 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! \U0001f60a µµ¿òÀÌ ÇÊ¿äÇÏ½Å ÀÏÀÌ ÀÖÀ¸½Å°¡¿ä?
+
+±×µ¿¾È ³¯¾¾´Â ±¦Âú¾Ò´Âµ¥ °¡À»ºñ°¡ ¿À¶ô°¡¶ôÇÏ³×¿ä. °Ç°­ Àß Ã¬±â½Ã°í, ¿À´Ã ÇÏ·çµµ Áñ°Å¿î ½Ã°£ º¸³»¼¼¿ä! ±Ã±İÇÑ Á¡ÀÌ³ª ºÒÆíÇÔÀÌ ÀÖ´Ù¸é ¾ğÁ¦µçÁö ¸»¾¸ÇØ ÁÖ¼¼¿ä!
+2025-07-25 13:00:41,341 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:41] "POST /chat HTTP/1.1" 200 -
+2025-07-25 13:00:43,370 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 13:00:43,370 - INFO - Message from 127.0.0.1: ·Î¤Ã¤©¾îÇë¤©Çã
+2025-07-25 13:00:43,370 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 13:00:43,370 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 13:00:43,370 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '·Î¤Ã¤©¾îÇë¤©Çã'}]}
+2025-07-25 13:00:43,989 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä? ¹«½¼ ÀÏÀÌ ÀÖÀ¸½Å°¡¿ä? °¡¸£ÃÄÁÖ½Ã¸é ÃÖ¼±À» ´ÙÇØ µµ¿Íµå¸±°Ô¿ä. °£ÆíÇÑ ¹®ÀåÀ» »ç¿ëÇØ ÇÊ¿äÇÏ½Å Á¡À» ¾Ë·ÁÁÖ½Ã¸é ´õ¿í °¨»çÇÏ°Ú½À´Ï´Ù.
+2025-07-25 13:00:43,990 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:43] "POST /chat HTTP/1.1" 200 -
+2025-07-25 13:00:46,217 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-25 13:00:46,478 - INFO - Request received from IP: 127.0.0.1
+2025-07-25 13:00:46,478 - INFO - Message from 127.0.0.1: ¤©ÇæÇæÇæÇã
+2025-07-25 13:00:46,478 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-25 13:00:46,478 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-25 13:00:46,478 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤©ÇæÇæÇæÇã'}]}
+2025-07-25 13:00:47,539 - INFO - Response to 127.0.0.1: ±×·±µ¥, ¾ğ¾î °øºÎ¿¡ ´ëÇØ¼­ »ı°¢ÇÒ ½Ã°£ÀÌ¶ó´Ï Èï¹Ì·Î¿ö¿ä. ±×·¯¸é ´Ù¾çÇÑ ¾ğ¾îÀÇ Æ¯Â¡°ú ±× ¾ğ¾î¸¦ °øºÎÇÏ´Â µ¥ ÇÊ¿äÇÑ Àü·«À» ÀÌ¾ß±âÇØ º¼±î¿ä? ¾ğ¾î °øºÎ´Â »õ·Î¿î ¼¼°è¸¦ ¿©´Â Ã¢±¸´Ï±î¿ä! Æ¯Á¤ ¾ğ¾î¿¡ ´ëÇØ ±Ã±İÇÑ Á¡ÀÌ ÀÖÀ¸½Ã¸é ¸»¾¸ÇØ ÁÖ¼¼¿ä.
+2025-07-25 13:00:47,539 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:47] "POST /chat HTTP/1.1" 200 -
+2025-07-25 13:00:49,820 - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: chat
+2025-07-25 13:00:49,820 - WARNING - Ratelimit exceeded for IP: 127.0.0.1 - 10 per 1 minute
+2025-07-25 13:00:49,820 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:49] "[31m[1mPOST /chat HTTP/1.1[0m" 429 -

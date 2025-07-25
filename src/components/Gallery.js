@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 import GalleryModal from './GalleryModal';
 
 const GallerySection = styled.section`
-  padding: 100px 0;
+  background: var(--background-dark1); /* 항상 검은색 배경 */
+  color: var(--text-color);
+  padding: 100px 0; /* 기존 패딩 유지 */
 
   @media (max-width: 768px) {
     padding: 60px 0; // 모바일 패딩 조정

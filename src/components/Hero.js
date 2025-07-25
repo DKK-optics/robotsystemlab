@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import Particles from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
@@ -273,4 +273,4 @@ function Hero(_, ref) {
   );
 }
 
-export default Hero; 
+export default forwardRef(Hero); 

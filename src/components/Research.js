@@ -6,6 +6,11 @@ import { faCube, faRobot, faMicrochip } from '@fortawesome/free-solid-svg-icons'
 
 // --- Styled Components ---
 const ResearchSection = styled.section`
+  background: var(--background-dark1); /* 항상 검은색 배경 */
+  color: var(--text-color);
+  padding-top: 50px;
+  padding-bottom: 50px; /* 푸터와의 간격 확보 */
+  /* 미디어 쿼리 추가 */
   padding: 100px 0;
 
   @media (max-width: 768px) {
@@ -33,12 +38,12 @@ const TabContainer = styled(motion.div)`
 const TabButton = styled(motion.button)`
   background: none;
   border: none;
-  color: ${({ active }) => (active ? 'var(--primary-color)' : 'var(--text-color-muted)')};
+  color: ${({ $active }) => ($active ? 'var(--primary-color)' : 'var(--text-color-muted)')};
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0 20px;
   padding-bottom: 10px;
-  border-bottom: 3px solid ${({ active }) => (active ? 'var(--primary-color)' : 'transparent')};
+  border-bottom: 3px solid ${({ $active }) => ($active ? 'var(--primary-color)' : 'transparent')};
   cursor: pointer;
   transition: all 0.3s ease;
 
@@ -287,21 +292,21 @@ function Research() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <TabButton
-            active={activeTab === 'fields'}
+            $active={activeTab === 'fields'}
             onClick={() => setActiveTab('fields')}
             variants={tabItemVariants}
           >
             Research Fields
           </TabButton>
           <TabButton
-            active={activeTab === 'publications'}
+            $active={activeTab === 'publications'}
             onClick={() => setActiveTab('publications')}
             variants={tabItemVariants}
           >
             Publications
           </TabButton>
           <TabButton
-            active={activeTab === 'ip'}
+            $active={activeTab === 'ip'}
             onClick={() => setActiveTab('ip')}
             variants={tabItemVariants}
           >

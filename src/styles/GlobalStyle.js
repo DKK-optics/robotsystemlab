@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    position: relative; // Added for Framer Motion scroll offset calculation
     background-color: var(--background-dark1);
     /* background-image: url(${process.env.PUBLIC_URL + '/images/space.jpg'}); */
     /* background-size: cover; */
