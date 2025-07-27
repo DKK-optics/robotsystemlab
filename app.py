@@ -37,6 +37,7 @@ logging.basicConfig(filename=log_file, level=logging.INFO,
 
 # API 키 및 타사 API 엔드포인트 로드 (환경 변수에서)
 ADOTX_API_KEY = os.getenv("ADOTX_API_KEY") # SKT API Key
+print("[DEBUG] ADOTX_API_KEY:", ADOTX_API_KEY)  # 환경 변수 값 출력
 THIRD_PARTY_API_ENDPOINT = os.getenv("THIRD_PARTY_API_ENDPOINT", "https://guest-api.sktax.chat/v1/chat/completions") # 실제 사용하실 SKT API 엔드포인트
 
 if not ADOTX_API_KEY:

@@ -131,7 +131,7 @@ const membersData = {
       role: 'Optics, Automotive AI',
       isClickable: true,
       details: {
-        image: '/images/dkkim.JPG',
+        image: '/images/dkkim.jpg',
         title: 'Robotics Engineering, 21',
         history: [
           'GPT Study Group (Yeungnam Univ.)',

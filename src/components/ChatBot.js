@@ -175,7 +175,7 @@ const Bubble = styled.div`
   white-space: pre-line;
 `;
 
-const API_ENDPOINT = 'http://localhost:5000/chat'; // 로컬 Flask 앱 URL로 변경 (테스트용)
+const API_ENDPOINT = 'http://localhost:5000/chat'; // 백엔드 서버의 절대 URL로 변경
 
 const personData = {
   '김대근': {
@@ -238,7 +238,7 @@ function ChatBot() {
       const response = await fetch(API_ENDPOINT, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json; charset=UTF-8', // UTF-8 charset 명시
         },
         body: JSON.stringify({ message: content }),
       });

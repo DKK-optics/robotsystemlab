@@ -714,3 +714,531 @@
 2025-07-25 13:00:49,820 - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: chat
 2025-07-25 13:00:49,820 - WARNING - Ratelimit exceeded for IP: 127.0.0.1 - 10 per 1 minute
 2025-07-25 13:00:49,820 - INFO - 127.0.0.1 - - [25/Jul/2025 13:00:49] "[31m[1mPOST /chat HTTP/1.1[0m" 429 -
+2025-07-25 13:25:46,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 13:25:46,625 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 13:25:46,626 - INFO -  * Restarting with stat
+2025-07-25 13:25:47,585 - WARNING -  * Debugger is active!
+2025-07-25 13:25:47,589 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 13:52:39,443 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 13:52:39,443 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 13:52:39,444 - INFO -  * Restarting with stat
+2025-07-25 13:52:40,509 - WARNING -  * Debugger is active!
+2025-07-25 13:52:40,514 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 13:57:12,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 13:57:12,627 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 13:57:12,629 - INFO -  * Restarting with stat
+2025-07-25 13:57:13,723 - WARNING -  * Debugger is active!
+2025-07-25 13:57:13,728 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 13:58:21,768 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 13:58:21,906 - INFO -  * Restarting with stat
+2025-07-25 13:58:23,144 - WARNING -  * Debugger is active!
+2025-07-25 13:58:23,157 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:06:51,539 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:06:51,597 - INFO -  * Restarting with stat
+2025-07-25 14:06:52,622 - WARNING -  * Debugger is active!
+2025-07-25 14:06:52,626 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:06:59,431 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:06:59,476 - INFO -  * Restarting with stat
+2025-07-25 14:07:00,482 - WARNING -  * Debugger is active!
+2025-07-25 14:07:00,486 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:07:32,076 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 14:07:32,076 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:07:32,077 - INFO -  * Restarting with stat
+2025-07-25 14:07:33,061 - WARNING -  * Debugger is active!
+2025-07-25 14:07:33,065 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:09:31,712 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:09:31,781 - INFO -  * Restarting with stat
+2025-07-25 14:09:32,836 - WARNING -  * Debugger is active!
+2025-07-25 14:09:32,841 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:09:44,159 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:09:44,213 - INFO -  * Restarting with stat
+2025-07-25 14:09:45,271 - WARNING -  * Debugger is active!
+2025-07-25 14:09:45,275 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:09:55,465 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:09:55,537 - INFO -  * Restarting with stat
+2025-07-25 14:09:56,549 - WARNING -  * Debugger is active!
+2025-07-25 14:09:56,553 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:10:03,385 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:10:03,438 - INFO -  * Restarting with stat
+2025-07-25 14:10:04,462 - WARNING -  * Debugger is active!
+2025-07-25 14:10:04,466 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:11:35,621 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 14:11:35,621 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:11:35,622 - INFO -  * Restarting with stat
+2025-07-25 14:11:36,614 - WARNING -  * Debugger is active!
+2025-07-25 14:11:36,618 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:13:27,405 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:13:27,488 - INFO -  * Restarting with stat
+2025-07-25 14:13:28,549 - WARNING -  * Debugger is active!
+2025-07-25 14:13:28,553 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:13:37,590 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:13:37,639 - INFO -  * Restarting with stat
+2025-07-25 14:13:38,699 - WARNING -  * Debugger is active!
+2025-07-25 14:13:38,704 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:14:07,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 14:14:07,588 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:14:07,589 - INFO -  * Restarting with stat
+2025-07-25 14:14:08,597 - WARNING -  * Debugger is active!
+2025-07-25 14:14:08,601 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:16:44,091 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:16:44,143 - INFO -  * Restarting with stat
+2025-07-25 14:16:45,163 - WARNING -  * Debugger is active!
+2025-07-25 14:16:45,167 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:16:52,047 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-25 14:16:52,098 - INFO -  * Restarting with stat
+2025-07-25 14:16:53,108 - WARNING -  * Debugger is active!
+2025-07-25 14:16:53,112 - INFO -  * Debugger PIN: 427-878-557
+2025-07-25 14:17:06,720 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-25 14:17:06,720 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:17:06,722 - INFO -  * Restarting with stat
+2025-07-25 14:17:07,721 - WARNING -  * Debugger is active!
+2025-07-25 14:17:07,725 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 13:58:00,242 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 13:58:00,367 - INFO -  * Restarting with stat
+2025-07-27 13:58:02,004 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 13:58:02,076 - WARNING -  * Debugger is active!
+2025-07-27 13:58:02,080 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 14:06:44,242 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 14:06:44,293 - INFO -  * Restarting with stat
+2025-07-27 14:06:45,317 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 14:06:45,340 - WARNING -  * Debugger is active!
+2025-07-27 14:06:45,345 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 14:28:44,894 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 14:28:44,950 - INFO -  * Restarting with stat
+2025-07-27 14:28:45,979 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 14:28:46,003 - WARNING -  * Debugger is active!
+2025-07-27 14:28:46,007 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 15:11:38,506 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:11:38,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 15:11:38,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:11:38,613 - INFO -  * Restarting with stat
+2025-07-27 15:11:39,671 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:11:39,695 - WARNING -  * Debugger is active!
+2025-07-27 15:11:39,700 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 15:22:39,084 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:22:39,121 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 15:22:39,121 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:22:39,122 - INFO -  * Restarting with stat
+2025-07-27 15:22:40,093 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:22:40,117 - WARNING -  * Debugger is active!
+2025-07-27 15:22:40,121 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 15:23:14,556 - INFO - 127.0.0.1 - - [27/Jul/2025 15:23:14] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-27 15:26:31,166 - INFO - 127.0.0.1 - - [27/Jul/2025 15:26:31] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-27 15:30:23,689 - INFO - 127.0.0.1 - - [27/Jul/2025 15:30:23] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-27 15:30:40,185 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:30:40,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 15:30:40,220 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:30:40,222 - INFO -  * Restarting with stat
+2025-07-27 15:30:41,184 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:30:41,203 - WARNING -  * Debugger is active!
+2025-07-27 15:30:41,208 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 15:30:51,259 - INFO - 127.0.0.1 - - [27/Jul/2025 15:30:51] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-27 15:59:13,264 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:59:13,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 15:59:13,304 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:59:13,305 - INFO -  * Restarting with stat
+2025-07-27 15:59:14,316 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 15:59:14,342 - WARNING -  * Debugger is active!
+2025-07-27 15:59:14,346 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:03:49,206 - INFO - 127.0.0.1 - - [27/Jul/2025 16:03:49] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-27 16:05:17,527 - INFO - 127.0.0.1 - - [27/Jul/2025 16:05:17] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-27 16:05:50,052 - INFO - 127.0.0.1 - - [27/Jul/2025 16:05:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:05:50,318 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:05:50,318 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤±¤¤¤¤¤±
+2025-07-27 16:05:50,320 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:05:50,321 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:05:50,321 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤±¤¤¤¤¤±'}]}
+2025-07-27 16:05:50,467 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:05:50,467 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:05:50,468 - INFO - 127.0.0.1 - - [27/Jul/2025 16:05:50] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:09:11,439 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:09:11,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:09:11,477 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:09:11,479 - INFO -  * Restarting with stat
+2025-07-27 16:09:12,468 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:09:12,492 - WARNING -  * Debugger is active!
+2025-07-27 16:09:12,496 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:09:22,989 - INFO - 127.0.0.1 - - [27/Jul/2025 16:09:22] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:09:23,252 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:09:23,252 - INFO - Message from 127.0.0.1 (decoded, should be clean): wew
+2025-07-27 16:09:23,252 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:09:23,252 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:09:23,252 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'wew'}]}
+2025-07-27 16:09:23,498 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:09:23,499 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:09:23,499 - INFO - 127.0.0.1 - - [27/Jul/2025 16:09:23] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:10:17,476 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:10:17,516 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:10:17,516 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:10:17,518 - INFO -  * Restarting with stat
+2025-07-27 16:10:18,617 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:10:18,639 - WARNING -  * Debugger is active!
+2025-07-27 16:10:18,645 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:10:32,600 - INFO - 127.0.0.1 - - [27/Jul/2025 16:10:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:10:32,863 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:10:32,863 - INFO - Message from 127.0.0.1 (decoded, should be clean): dssdv
+2025-07-27 16:10:32,863 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:10:32,863 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:10:32,863 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'dssdv'}]}
+2025-07-27 16:10:32,943 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:10:32,943 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:10:32,944 - INFO - 127.0.0.1 - - [27/Jul/2025 16:10:32] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:11:20,214 - INFO - 127.0.0.1 - - [27/Jul/2025 16:11:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:11:20,522 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:11:20,523 - INFO - Message from 127.0.0.1 (decoded, should be clean): ddsdsd
+2025-07-27 16:11:20,523 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:11:20,523 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:11:20,523 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'ddsdsd'}]}
+2025-07-27 16:11:20,564 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:11:20,564 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:11:20,565 - INFO - 127.0.0.1 - - [27/Jul/2025 16:11:20] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:12:13,174 - INFO - 127.0.0.1 - - [27/Jul/2025 16:12:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:12:13,485 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:12:13,485 - INFO - Message from 127.0.0.1 (decoded, should be clean): sddssdsdds
+2025-07-27 16:12:13,485 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:12:13,485 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:12:13,485 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'sddssdsdds'}]}
+2025-07-27 16:12:13,566 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:12:13,566 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:12:13,567 - INFO - 127.0.0.1 - - [27/Jul/2025 16:12:13] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:13:18,943 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:13:18,943 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:13:18,944 - INFO -  * Restarting with stat
+2025-07-27 16:13:20,074 - WARNING -  * Debugger is active!
+2025-07-27 16:13:20,079 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:13:47,752 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:13:47,752 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:13:47,755 - INFO -  * Restarting with stat
+2025-07-27 16:13:48,834 - WARNING -  * Debugger is active!
+2025-07-27 16:13:48,841 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:14:11,283 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:14:11,283 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:14:11,284 - INFO -  * Restarting with stat
+2025-07-27 16:14:12,329 - WARNING -  * Debugger is active!
+2025-07-27 16:14:12,333 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:17:54,990 - INFO - 127.0.0.1 - - [27/Jul/2025 16:17:54] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:17:55,255 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:17:55,255 - INFO - Message from 127.0.0.1 (decoded, should be clean): rtfuyc
+2025-07-27 16:17:55,255 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:17:55,255 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:17:55,255 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'rtfuyc'}]}
+2025-07-27 16:17:55,307 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:17:55,307 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:17:55,308 - INFO - 127.0.0.1 - - [27/Jul/2025 16:17:55] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:18:46,837 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:18:46,919 - INFO -  * Restarting with stat
+2025-07-27 16:18:47,225 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:18:47,297 - INFO -  * Restarting with stat
+2025-07-27 16:18:47,340 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:18:47,472 - INFO -  * Restarting with stat
+2025-07-27 16:18:48,173 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:18:48,202 - WARNING -  * Debugger is active!
+2025-07-27 16:18:48,207 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:18:48,541 - WARNING -  * Debugger is active!
+2025-07-27 16:18:48,545 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:18:48,608 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:18:48,633 - WARNING -  * Debugger is active!
+2025-07-27 16:18:48,639 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:18:56,201 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:18:56,259 - INFO -  * Restarting with stat
+2025-07-27 16:18:56,597 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:18:56,662 - INFO -  * Restarting with stat
+2025-07-27 16:18:56,686 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:18:56,775 - INFO -  * Restarting with stat
+2025-07-27 16:18:57,395 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:18:57,416 - WARNING -  * Debugger is active!
+2025-07-27 16:18:57,422 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:18:57,855 - WARNING -  * Debugger is active!
+2025-07-27 16:18:57,860 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:18:57,902 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:18:57,924 - WARNING -  * Debugger is active!
+2025-07-27 16:18:57,929 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:19:58,903 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:19:59,053 - INFO -  * Restarting with stat
+2025-07-27 16:19:59,099 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:19:59,202 - INFO -  * Restarting with stat
+2025-07-27 16:19:59,575 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:19:59,684 - INFO -  * Restarting with stat
+2025-07-27 16:20:00,530 - WARNING -  * Debugger is active!
+2025-07-27 16:20:00,535 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:20:00,608 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:20:00,632 - WARNING -  * Debugger is active!
+2025-07-27 16:20:00,637 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:20:00,992 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:20:01,017 - WARNING -  * Debugger is active!
+2025-07-27 16:20:01,022 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:20:09,181 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:20:09,249 - INFO -  * Restarting with stat
+2025-07-27 16:20:09,658 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:20:09,730 - INFO -  * Restarting with stat
+2025-07-27 16:20:09,756 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:20:09,838 - INFO -  * Restarting with stat
+2025-07-27 16:20:10,519 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:20:10,543 - WARNING -  * Debugger is active!
+2025-07-27 16:20:10,548 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:20:11,057 - WARNING -  * Debugger is active!
+2025-07-27 16:20:11,062 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:20:11,082 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:20:11,107 - WARNING -  * Debugger is active!
+2025-07-27 16:20:11,111 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:20:36,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:20:36,518 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:20:36,519 - INFO -  * Restarting with stat
+2025-07-27 16:20:37,292 - WARNING -  * Debugger is active!
+2025-07-27 16:20:37,295 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:21:05,930 - INFO - 127.0.0.1 - - [27/Jul/2025 16:21:05] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:21:06,194 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:21:06,194 - INFO - Message from 127.0.0.1 (decoded, should be clean): sddsdsdd
+2025-07-27 16:21:06,194 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:21:06,194 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:21:06,194 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': 'sddsdsdd'}]}
+2025-07-27 16:21:06,284 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:21:06,285 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:21:06,285 - INFO - 127.0.0.1 - - [27/Jul/2025 16:21:06] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:24:43,107 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:24:43,242 - INFO -  * Restarting with stat
+2025-07-27 16:24:43,397 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:24:43,517 - INFO -  * Restarting with stat
+2025-07-27 16:24:43,771 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:24:43,859 - INFO -  * Restarting with stat
+2025-07-27 16:24:44,473 - WARNING -  * Debugger is active!
+2025-07-27 16:24:44,476 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:24:44,511 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:24:44,535 - WARNING -  * Debugger is active!
+2025-07-27 16:24:44,541 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:24:44,947 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:24:44,969 - WARNING -  * Debugger is active!
+2025-07-27 16:24:44,973 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:03,075 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:27:03,135 - INFO -  * Restarting with stat
+2025-07-27 16:27:03,185 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:27:03,259 - INFO -  * Restarting with stat
+2025-07-27 16:27:03,444 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:27:03,519 - INFO -  * Restarting with stat
+2025-07-27 16:27:04,070 - WARNING -  * Debugger is active!
+2025-07-27 16:27:04,074 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:04,406 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:27:04,426 - WARNING -  * Debugger is active!
+2025-07-27 16:27:04,430 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:04,564 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:27:04,585 - WARNING -  * Debugger is active!
+2025-07-27 16:27:04,589 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:05,361 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:27:05,452 - INFO -  * Restarting with stat
+2025-07-27 16:27:05,761 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:27:05,834 - INFO -  * Restarting with stat
+2025-07-27 16:27:05,946 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:27:06,013 - INFO -  * Restarting with stat
+2025-07-27 16:27:06,328 - WARNING -  * Debugger is active!
+2025-07-27 16:27:06,331 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:06,898 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:27:06,921 - WARNING -  * Debugger is active!
+2025-07-27 16:27:06,925 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:07,046 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:27:07,072 - WARNING -  * Debugger is active!
+2025-07-27 16:27:07,077 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:27:24,978 - INFO - 127.0.0.1 - - [27/Jul/2025 16:27:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 16:27:25,239 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 16:27:25,239 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤¿¤Ç¤Ë¤Á¤ÅÇÏ¤Å¤Ë¤¾
+2025-07-27 16:27:25,241 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:27:25,241 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-27 16:27:25,242 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¿¤Ç¤Ë¤Á¤ÅÇÏ¤Å¤Ë¤¾'}]}
+2025-07-27 16:27:25,303 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 16:27:25,303 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-27 16:27:25,303 - INFO - 127.0.0.1 - - [27/Jul/2025 16:27:25] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-27 16:30:20,544 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:30:20,612 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:30:20,613 - INFO -  * Restarting with stat
+2025-07-27 16:30:20,675 - INFO -  * Restarting with stat
+2025-07-27 16:30:21,429 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:30:21,482 - INFO -  * Restarting with stat
+2025-07-27 16:30:21,795 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:30:21,830 - WARNING -  * Debugger is active!
+2025-07-27 16:30:21,836 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:30:21,858 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:30:21,882 - WARNING -  * Debugger is active!
+2025-07-27 16:30:21,887 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:30:22,286 - WARNING -  * Debugger is active!
+2025-07-27 16:30:22,290 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:30:23,170 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:30:23,216 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:30:23,227 - INFO -  * Restarting with stat
+2025-07-27 16:30:23,294 - INFO -  * Restarting with stat
+2025-07-27 16:30:24,338 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:30:24,361 - WARNING -  * Debugger is active!
+2025-07-27 16:30:24,367 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:30:24,381 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:30:24,404 - WARNING -  * Debugger is active!
+2025-07-27 16:30:24,409 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:38:55,361 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:38:55,412 - INFO -  * Restarting with stat
+2025-07-27 16:38:55,532 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:38:55,597 - INFO -  * Restarting with stat
+2025-07-27 16:38:56,166 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:38:56,211 - INFO -  * Restarting with stat
+2025-07-27 16:38:56,566 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:38:56,592 - WARNING -  * Debugger is active!
+2025-07-27 16:38:56,599 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:38:56,742 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:38:56,775 - WARNING -  * Debugger is active!
+2025-07-27 16:38:56,780 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:38:57,241 - WARNING -  * Debugger is active!
+2025-07-27 16:38:57,245 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:40:38,763 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:40:38,818 - INFO -  * Restarting with stat
+2025-07-27 16:40:39,149 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:40:39,213 - INFO -  * Restarting with stat
+2025-07-27 16:40:39,629 - WARNING -  * Debugger is active!
+2025-07-27 16:40:39,632 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:40:40,221 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:40:40,245 - WARNING -  * Debugger is active!
+2025-07-27 16:40:40,249 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:40:40,456 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:40:40,510 - INFO -  * Restarting with stat
+2025-07-27 16:40:40,919 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:40:40,991 - INFO -  * Restarting with stat
+2025-07-27 16:40:41,611 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:40:41,633 - WARNING -  * Debugger is active!
+2025-07-27 16:40:41,639 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:40:41,820 - WARNING -  * Debugger is active!
+2025-07-27 16:40:41,823 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:42:06,447 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:42:06,500 - INFO -  * Restarting with stat
+2025-07-27 16:42:06,605 - INFO -  * Detected change in 'C:\\robotsystemlab\\server.py', reloading
+2025-07-27 16:42:06,676 - INFO -  * Restarting with stat
+2025-07-27 16:42:07,356 - WARNING -  * Debugger is active!
+2025-07-27 16:42:07,359 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:42:07,694 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:42:07,724 - WARNING -  * Debugger is active!
+2025-07-27 16:42:07,729 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:42:29,794 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:42:29,827 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 16:42:29,827 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:42:29,828 - INFO -  * Restarting with stat
+2025-07-27 16:42:30,731 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:42:30,753 - WARNING -  * Debugger is active!
+2025-07-27 16:42:30,757 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:44:11,144 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:44:11,206 - INFO -  * Restarting with stat
+2025-07-27 16:44:11,534 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:44:11,623 - INFO -  * Restarting with stat
+2025-07-27 16:44:11,667 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 16:44:11,775 - INFO -  * Restarting with stat
+2025-07-27 16:44:12,248 - WARNING -  * Debugger is active!
+2025-07-27 16:44:12,253 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:44:12,928 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:44:12,950 - WARNING -  * Debugger is active!
+2025-07-27 16:44:12,954 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 16:44:13,039 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 16:44:13,068 - WARNING -  * Debugger is active!
+2025-07-27 16:44:13,076 - INFO -  * Debugger PIN: 427-878-557
