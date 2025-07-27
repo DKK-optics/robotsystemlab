@@ -1,18 +1,17 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from flask_cors import CORS # CORS 임포트
 import os
-from dotenv import load_dotenv
 import logging
 from datetime import datetime
 import requests
 import json # json 모듈 임포트
 
-# .env 파일에서 환경 변수 로드
-load_dotenv()
+# .env 파일에서 환경 변수 로드 (Heroku 배포 시에는 필요 없음)
+# load_dotenv()
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='build/static', template_folder='build')
 CORS(app) # 모든 경로에 대해 모든 오리진을 허용 (개발/테스트 목적)
 
 # Rate Limiter 설정 (IP당 분당 5회 요청 제한)
@@ -106,6 +105,14 @@ def chat():
     except Exception as e:
         logging.error(f"Server internal error for IP: {client_ip} - {e}")
         return jsonify({"error": f"An internal server error occurred: {str(e)}"}), 500
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(app.template_folder + '/' + path):
+        return send_from_directory(app.template_folder, path)
+    else:
+        return send_from_directory(app.template_folder, 'index.html')
 
 if __name__ == '__main__':
     # 로컬 개발 환경에서만 실행 (Heroku 배포 시에는 gunicorn이 실행)
