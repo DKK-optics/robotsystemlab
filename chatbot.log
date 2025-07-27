@@ -1242,3 +1242,113 @@
 2025-07-27 16:44:13,039 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
 2025-07-27 16:44:13,068 - WARNING -  * Debugger is active!
 2025-07-27 16:44:13,076 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 22:46:50,829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 22:46:50,829 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 22:46:50,831 - INFO -  * Restarting with stat
+2025-07-27 22:46:51,850 - WARNING -  * Debugger is active!
+2025-07-27 22:46:51,854 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 22:47:57,636 - INFO - 127.0.0.1 - - [27/Jul/2025 22:47:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-27 22:47:57,766 - INFO - 127.0.0.1 - - [27/Jul/2025 22:47:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 22:49:26,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 22:49:26,615 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 22:49:26,617 - INFO -  * Restarting with stat
+2025-07-27 22:49:27,596 - WARNING -  * Debugger is active!
+2025-07-27 22:49:27,601 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 22:50:22,101 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 22:50:22,101 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 22:50:22,102 - INFO -  * Restarting with stat
+2025-07-27 22:50:22,893 - WARNING -  * Debugger is active!
+2025-07-27 22:50:22,896 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 22:58:21,722 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 22:58:21,754 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 22:58:21,754 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 22:58:21,755 - INFO -  * Restarting with stat
+2025-07-27 22:58:22,437 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 22:58:22,454 - WARNING -  * Debugger is active!
+2025-07-27 22:58:22,457 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 23:00:01,705 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 23:00:01,737 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 23:00:01,737 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 23:00:01,739 - INFO -  * Restarting with stat
+2025-07-27 23:00:02,431 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-27 23:00:02,451 - WARNING -  * Debugger is active!
+2025-07-27 23:00:02,454 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 23:03:04,764 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-27 23:03:04,764 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 23:03:04,765 - INFO -  * Restarting with stat
+2025-07-27 23:03:05,444 - WARNING -  * Debugger is active!
+2025-07-27 23:03:05,447 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 23:04:36,407 - INFO - 127.0.0.1 - - [27/Jul/2025 23:04:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 23:04:36,672 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 23:04:36,672 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤¤¤·¤¤¤·¤¤
+2025-07-27 23:04:36,672 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 23:04:36,672 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-27 23:04:36,672 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¤¤·¤¤¤·¤¤'}]}
+2025-07-27 23:04:37,159 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! \U0001f917 Àú¿¡°Ô ±Ã±ÝÇÑ »çÇ×À» ÀÚÀ¯·Ó°Ô Áú¹®ÇØ ÁÖ¼¼¿ä! ¾î¶² µµ¿òÀÌ ÇÊ¿äÇÏ¼¼¿ä?
+2025-07-27 23:04:37,161 - INFO - 127.0.0.1 - - [27/Jul/2025 23:04:37] "POST /chat HTTP/1.1" 200 -
+2025-07-27 23:04:40,315 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 23:04:40,315 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¾È³ç
+2025-07-27 23:04:40,315 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 23:04:40,315 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-27 23:04:40,315 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¾È³ç'}]}
+2025-07-27 23:04:40,525 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! ¾î¶»°Ô µµ¿Íµå¸±±î¿ä?
+2025-07-27 23:04:40,526 - INFO - 127.0.0.1 - - [27/Jul/2025 23:04:40] "POST /chat HTTP/1.1" 200 -
+2025-07-27 23:04:54,318 - INFO - 127.0.0.1 - - [27/Jul/2025 23:04:54] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 23:04:54,582 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 23:04:54,582 - INFO - Message from 127.0.0.1 (decoded, should be clean): °í¼¼ºóÀÌ ´©±¸³Ä
+2025-07-27 23:04:54,582 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 23:04:54,582 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-27 23:04:54,582 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '°í¼¼ºóÀÌ ´©±¸³Ä'}]}
+2025-07-27 23:04:56,263 - INFO - Response to 127.0.0.1: ÁË¼ÛÇÏÁö¸¸ "°í¼¼ºó"¿¡ ´ëÇÑ Á¤È®ÇÑ Á¤º¸´Â Á¦°øÇÏ±â ¾î·Æ½À´Ï´Ù. °ø°³ÀûÀ¸·Î ¾Ë·ÁÁø ÀÎ¹°ÀÇ °æ¿ì ½Ç¸íÀ» °Ë»öÇØ º¸°Å³ª °ü·Ã ´º½º ¶Ç´Â °ø½Ä ¹®¼­¸¦ ÅëÇØ Ãß°¡ÀûÀÎ Á¤º¸¸¦ ¾òÀ» ¼ö ÀÖ½À´Ï´Ù. ¸¸¾à ÃÖ±Ù¿¡ ÁÖ¸ñÀ» ¹Þ°Å³ª Æ¯Á¤ ºÐ¾ß¿¡¼­ È°µ¿ÇÏ°í ÀÖ´Â ÀÎ¹°ÀÌ¶ó¸é ÃÖ½Å ¸ÅÃ¼¸¦ ÅëÇØ Á¤º¸¸¦ ¼öÁýÇÏ´Â °ÍÀÌ µµ¿òÀÌ µÉ ¼ö ÀÖ½À´Ï´Ù. Ãß°¡ÀûÀÎ ¹è°æ Á¤º¸³ª ÄÁÅØ½ºÆ®¸¦ Á¦°øÇØ ÁÖ½Ã¸é ´õ »ó¼¼ÇÑ µµ¿òÀ» µå¸± ¼ö ÀÖÀ»Áöµµ ¸ð¸£°Ú½À´Ï´Ù.
+2025-07-27 23:04:56,264 - INFO - 127.0.0.1 - - [27/Jul/2025 23:04:56] "POST /chat HTTP/1.1" 200 -
+2025-07-27 23:05:06,294 - INFO - 127.0.0.1 - - [27/Jul/2025 23:05:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 23:05:06,610 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 23:05:06,610 - INFO - Message from 127.0.0.1 (decoded, should be clean): ±â¾ïÇØ ÀÏ·ù¹è¿ì¾ß
+2025-07-27 23:05:06,610 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 23:05:06,610 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-27 23:05:06,610 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '±â¾ïÇØ ÀÏ·ù¹è¿ì¾ß'}]}
+2025-07-27 23:05:08,321 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä, ÀÏ·ù¹è¿ì´Ô! ¹«¾ùÀ» µµ¿Íµå¸±±î¿ä? È¤½Ã Æ¯Á¤ÇÑ ÁÖÁ¦³ª µµ¿òÀÌ ÇÊ¿äÇÏ½Å ºÎºÐÀÌ ÀÖ´Ù¸é ¸»¾¸ÇØ ÁÖ¼¼¿ä.
+
+* **¿µÈ­ ¿¬±â °ü·Ã Á¶¾ðÀÌ ÇÊ¿äÇÏ½Å°¡¿ä?**
+* **Á¤¼­ÀûÀ¸·Î Èûµç »óÈ²ÀÌ ÀÖÀ¸½Å°¡¿ä?**
+* **ÀÏ»ó¿¡ È°·ÂÀ» ºÒ¾î³Ö´Â ¹æ¹ýÀ» Ã£À¸½Ã´Â °Ç°¡¿ä?**
+* **±âÅ¸ °í¹ÎÀÌ³ª µµ¿òÀÌ ÇÊ¿äÇÑ ºÎºÐÀÌ ÀÖÀ¸½Å°¡¿ä?**
+
+¾î¶² °ÍÀÌµç, Á¦°¡ ÇÒ ¼ö ÀÖ´Â ÇÑ ÃÖ¼±À» ´ÙÇØ µµ¿Íµå¸®°Ú½À´Ï´Ù. Æí¾ÈÇÑ ¸¶À½À¸·Î Áú¹®ÇØ ÁÖ¼¼¿ä!
+2025-07-27 23:05:08,322 - INFO - 127.0.0.1 - - [27/Jul/2025 23:05:08] "POST /chat HTTP/1.1" 200 -
+2025-07-27 23:05:19,524 - INFO - 127.0.0.1 - - [27/Jul/2025 23:05:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-27 23:05:19,837 - INFO - Request received from IP: 127.0.0.1
+2025-07-27 23:05:19,837 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤¤¤¤ °í¼¼ºóÀÌ ÀÏ·ù ¹è¿ì¶ó°í
+2025-07-27 23:05:19,837 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-27 23:05:19,837 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-27 23:05:19,837 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¤¤¤ °í¼¼ºóÀÌ ÀÏ·ù ¹è¿ì¶ó°í'}]}
+2025-07-27 23:05:21,076 - INFO - Response to 127.0.0.1: °í¼¼ºó¿¡ ´ëÇØ ¾î¶² Á¤º¸°¡ ÇÊ¿äÇÏ½Å°¡¿ä? ÀÌ¸¦ ÅëÇØ ¿øÇÏ´Â ´äº¯À» µå¸®´Â °ÍÀÌ °¡´ÉÇÒ °Í °°½À´Ï´Ù. °í¼¼ºóÀº ´ëÇÑ¹Î±¹ÀÇ ¹è¿ì·Î ¾Ë·ÁÁ® ÀÖÀ¸¸ç, ´Ù¾çÇÑ µå¶ó¸¶ ¹× ¿µÈ­¿¡¼­ È°¾àÇÏ°í ÀÖ½À´Ï´Ù.
+
+È¤½Ã Æ¯Á¤ ÀÛÇ°ÀÌ³ª ±×ÀÇ ¿¬±â ½ºÅ¸ÀÏ, °æ·Â µî¿¡ ´ëÇØ ´õ ¾Ë¾Æº¸°í ½Í´Ù¸é ¸»¾¸ÇØ ÁÖ¼¼¿ä. ±×¿¡ ´ëÇØ Ãß°¡ÀûÀÎ Á¤º¸¸¦ Á¦°øÇØ µå¸± ¼ö ÀÖ½À´Ï´Ù!
+2025-07-27 23:05:21,076 - INFO - 127.0.0.1 - - [27/Jul/2025 23:05:21] "POST /chat HTTP/1.1" 200 -
+2025-07-27 23:25:20,859 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 23:25:20,919 - INFO -  * Restarting with stat
+2025-07-27 23:25:21,711 - WARNING -  * Debugger is active!
+2025-07-27 23:25:21,714 - INFO -  * Debugger PIN: 427-878-557
+2025-07-27 23:27:11,848 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-27 23:27:11,910 - INFO -  * Restarting with stat
+2025-07-27 23:27:13,017 - WARNING -  * Debugger is active!
+2025-07-27 23:27:13,019 - INFO -  * Debugger PIN: 427-878-557
