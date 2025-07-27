@@ -13,7 +13,7 @@ import json # json 모듈 임포트
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, resources={r"/chat/*": {"origins": "*"}}) # /chat 경로에 대해 모든 오리진 허용
+CORS(app) # 모든 경로에 대해 모든 오리진을 허용 (개발/테스트 목적)
 
 # Rate Limiter 설정 (IP당 분당 5회 요청 제한)
 limiter = Limiter(
@@ -36,7 +36,7 @@ logging.basicConfig(filename=log_file, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # API 키 및 타사 API 엔드포인트 로드 (환경 변수에서)
-ADOTX_API_KEY = os.getenv("ADOTX_API_KEY", "sktax-XyeKFrq67ZjS4EpsDlrHHXV8it") # SKT API Key (공개 키)
+ADOTX_API_KEY = os.getenv("ADOTX_API_KEY") # SKT API Key
 THIRD_PARTY_API_ENDPOINT = os.getenv("THIRD_PARTY_API_ENDPOINT", "https://guest-api.sktax.chat/v1/chat/completions") # 실제 사용하실 SKT API 엔드포인트
 
 if not ADOTX_API_KEY:
