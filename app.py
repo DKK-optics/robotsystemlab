@@ -107,14 +107,23 @@ def chat():
         logging.error(f"Server internal error for IP: {client_ip} - {e}")
         return jsonify({"error": f"An internal server error occurred: {str(e)}"}), 500
 
+@app.route('/manifest.json')
+def serve_manifest():
+    logging.info(f"Serving manifest.json from {app.template_folder}")
+    return send_from_directory(app.template_folder, 'manifest.json')
+
+@app.route('/images/<path:filename>')
+def serve_image(filename):
+    logging.info(f"Serving image: {filename} from {app.template_folder}/images")
+    return send_from_directory(os.path.join(app.template_folder, 'images'), filename)
+
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
     try:
-        # Flask is configured with template_folder='build' for index.html.
-        # Flask is configured with static_folder='build/static' for other static assets (handled automatically).
-        # This catch-all route should always serve index.html for client-side routing.
-        # It's important that this route comes AFTER any API routes so API calls are handled first.
+        # If the path is for a static file that Flask's default static_folder doesn't handle
+        # (e.g., root-level images or files not in 'build/static'), it needs explicit handling
+        # For React, typically only index.html is needed here, with other assets handled by Flask's static_folder or specific routes.
         
         # Ensure we always serve index.html for non-api routes, letting react-router handle sub-paths
         logging.info(f"Serving index.html for path: /{path} from {app.template_folder}")
