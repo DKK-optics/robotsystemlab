@@ -11,7 +11,7 @@ import json # json 모듈 임포트
 # .env 파일에서 환경 변수 로드 (Heroku 배포 시에는 필요 없음)
 # load_dotenv()
 
-app = Flask(__name__, static_folder='build/static', template_folder='build')
+app = Flask(__name__, static_folder='build', static_url_path='/') # static_folder와 static_url_path 변경
 CORS(app) # 모든 경로에 대해 모든 오리진을 허용 (개발/테스트 목적)
 
 # Rate Limiter 설정 (IP당 분당 5회 요청 제한)
@@ -107,27 +107,14 @@ def chat():
         logging.error(f"Server internal error for IP: {client_ip} - {e}")
         return jsonify({"error": f"An internal server error occurred: {str(e)}"}), 500
 
-@app.route('/manifest.json')
-def serve_manifest():
-    logging.info(f"Serving manifest.json from {app.template_folder}")
-    return send_from_directory(app.template_folder, 'manifest.json')
-
-@app.route('/images/<path:filename>')
-def serve_image(filename):
-    logging.info(f"Serving image: {filename} from {app.template_folder}/images")
-    return send_from_directory(os.path.join(app.template_folder, 'images'), filename)
-
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
     try:
-        # If the path is for a static file that Flask's default static_folder doesn't handle
-        # (e.g., root-level images or files not in 'build/static'), it needs explicit handling
-        # For React, typically only index.html is needed here, with other assets handled by Flask's static_folder or specific routes.
-        
         # Ensure we always serve index.html for non-api routes, letting react-router handle sub-paths
-        logging.info(f"Serving index.html for path: /{path} from {app.template_folder}")
-        return send_from_directory(app.template_folder, 'index.html')
+        # Flask's static_folder='build' with static_url_path='/' will handle all other static assets directly.
+        logging.info(f"Serving index.html for path: /{path}")
+        return app.send_static_file('index.html') # Use app.send_static_file for files in static_folder
     except Exception as e:
         logging.error(f"Error serving index.html for path /{path}: {e}")
         return jsonify({"error": f"Failed to serve frontend: {str(e)}"}), 500
