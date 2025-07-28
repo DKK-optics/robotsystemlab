@@ -69,6 +69,7 @@ def chat():
         payload = {
             "model": "ax4", # SKT AI API에 맞는 모델명으로 변경
             "messages": [
+                {"role": "system", "content": "당신은 영남대학교 로봇공학과 로봇시스템연구실의 AI 비서 자비스입니다. 당신의 목적은 연구실에 대한 질문에 유용한 답변을 제공하는 것입니다. 연구실 관련 정보가 부족하면 일반적인 답변을 하되, 항상 영남대학교 로봇공학과 로봇시스템연구실의 AI 비서 자비스라는 점을 기억하고 답변해야 합니다."}, # 시스템 메시지 추가
                 {"role": "user", "content": user_message}
             ]
         }
@@ -109,10 +110,18 @@ def chat():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
-    if path != "" and os.path.exists(app.template_folder + '/' + path):
-        return send_from_directory(app.template_folder, path)
-    else:
+    try:
+        # Flask is configured with template_folder='build' for index.html.
+        # Flask is configured with static_folder='build/static' for other static assets (handled automatically).
+        # This catch-all route should always serve index.html for client-side routing.
+        # It's important that this route comes AFTER any API routes so API calls are handled first.
+        
+        # Ensure we always serve index.html for non-api routes, letting react-router handle sub-paths
+        logging.info(f"Serving index.html for path: /{path} from {app.template_folder}")
         return send_from_directory(app.template_folder, 'index.html')
+    except Exception as e:
+        logging.error(f"Error serving index.html for path /{path}: {e}")
+        return jsonify({"error": f"Failed to serve frontend: {str(e)}"}), 500
 
 if __name__ == '__main__':
     # 로컬 개발 환경에서만 실행 (Heroku 배포 시에는 gunicorn이 실행)

@@ -1352,3 +1352,209 @@
 2025-07-27 23:27:11,910 - INFO -  * Restarting with stat
 2025-07-27 23:27:13,017 - WARNING -  * Debugger is active!
 2025-07-27 23:27:13,019 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 00:25:43,921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-28 00:25:43,921 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-28 00:25:43,924 - INFO -  * Restarting with stat
+2025-07-28 00:25:45,157 - WARNING -  * Debugger is active!
+2025-07-28 00:25:45,165 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 00:26:48,377 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-28 00:26:48,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-28 00:26:48,420 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-28 00:26:48,422 - INFO -  * Restarting with stat
+2025-07-28 00:26:49,557 - ERROR - ADOTX_API_KEY environment variable not set. Using public key.
+2025-07-28 00:26:49,624 - WARNING -  * Debugger is active!
+2025-07-28 00:26:49,631 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 00:28:18,532 - INFO - 127.0.0.1 - - [28/Jul/2025 00:28:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:28:18,791 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:28:18,791 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤·¤¤¤©¤¤
+2025-07-28 00:28:18,795 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:28:18,795 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer None'}
+2025-07-28 00:28:18,795 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·¤¤¤©¤¤'}]}
+2025-07-28 00:28:18,898 - ERROR - Third-party API HTTP error for IP: 127.0.0.1 - 401 Client Error: Unauthorized for url: https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:28:18,898 - ERROR - Third-party API response content: <html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2025-07-28 00:28:18,898 - INFO - 127.0.0.1 - - [28/Jul/2025 00:28:18] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-07-28 00:28:44,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-28 00:28:44,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-28 00:28:44,412 - INFO -  * Restarting with stat
+2025-07-28 00:28:45,548 - WARNING -  * Debugger is active!
+2025-07-28 00:28:45,553 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 00:29:42,367 - INFO - 127.0.0.1 - - [28/Jul/2025 00:29:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:29:42,633 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:29:42,633 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤·¤¤¤©
+2025-07-28 00:29:42,633 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:29:42,634 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:29:42,634 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤·¤¤¤©'}]}
+2025-07-28 00:29:46,404 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä.
+ÇÊ¿äÇÑ ¹«·á ¹ı·ü ¼­ºñ½º¸¦ ¾îµğ¿¡¼­ Ã£À» ¼ö ÀÖ´ÂÁö¸¦ ¾Ë·Áµå¸±°Ô¿ä.
+
+### ¹«·á ¹ı·ü ¼­ºñ½º
+- **´ëÇÑ¹ı·ü±¸Á¶°ø´Ü**: ¼Òµæ ¼öÁØ¿¡ µû¶ó ¹«·á ¹ı·ü »ó´ã/±¸Á¶ ½ÅÃ» °¡´É
+- **ÇÑ±¹°¡Á¤¹ı·ü»ó´ã¼Ò**: °¡Á· °ü·Ã ¹ı·ü »ó´ã ¹× ÀÌÈ¥ µî °¡Á¤ ³» ¹®Á¦ ¹«·á »ó´ã
+- **¼­¿ï½Ã ´Ù»êÄİ¼¾ÅÍ(120)**: ¼­¿ï½Ã ¼ÒÀç ¹ı·ü ¹®Á¦ ÀüÈ­ »ó´ã
+- **»ç¹ı¿¬¼ö¿ø »ç¹ıÁö¿ø¼¾ÅÍ**: »ç¹ı¿¬¼ö»ıµéÀÌ Á¦°øÇÏ´Â ¹«·á ¹ı·ü »ó´ã
+- **°¢ ÁöÀÚÃ¼ ¹ı·ü È¨´ÚÅÍ**: ½Ã/±º/±¸ ¼Ò¼Ó ¹ı·üÈ¨´ÚÅÍ¸¦ ÅëÇÑ ¹«·á ¹ı·ü »ó´ã
+
+### ±âÅ¸ »ıÈ° Á¤º¸
+- **Á¤ºÎ24(gov.kr)**: ÁÖÅÃ, ¿¬±İ µî 9°¡Áö ¹Î¿ø ´Ù¼ö Áï½Ã Ã³¸® ¹× È®ÀÎ °¡´É
+- **±¹¹ÎÄİ110(110)**: °¢Á¾ Á¤ºÎ/°ø°ø¼­ºñ½º °ü·Ã »ó´ã ¹× ºÒÆí ½Å°í
+
+ÇØ´ç ¼­ºñ½ºµéÀº Àü±¹¿¡ °ÉÃÄ ¿î¿µ ÁßÀÌ´Ï °ÅÁÖÇÏ½Ã´Â Áö¿ª¿¡ ¸ÂÃç ÀÌ¿ëÇÏ½Ã¸é µÅ¿ä. ¹ı·ü ¹®Á¦´Â ¹Ì¸® ¾Ë¾Æº¸½Ã°í ÁØºñÇÏ½Ã´Â °Ô ÁÁÀ¸¹Ç·Î Æí¸®ÇÏ°Ô È°¿ëÇÏ¼¼¿ä.
+
+´õ µµ¿òÀÌ ÇÊ¿äÇÏ½Ã¸é ¸»¾¸ÇØ ÁÖ¼¼¿ä.
+2025-07-28 00:29:46,405 - INFO - 127.0.0.1 - - [28/Jul/2025 00:29:46] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:29:53,416 - INFO - 127.0.0.1 - - [28/Jul/2025 00:29:53] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:29:53,728 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:29:53,728 - INFO - Message from 127.0.0.1 (decoded, should be clean): ³Í ´©±¸³Ä
+2025-07-28 00:29:53,728 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:29:53,728 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:29:53,730 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '³Í ´©±¸³Ä'}]}
+2025-07-28 00:29:54,401 - INFO - Response to 127.0.0.1: Àú´Â SK¢ß C&CÀÇ A.X ¿¡ÀÌÀüÆ®ÀÔ´Ï´Ù. "Ask eXpert"¿¡¼­ Áú¹®À» ÇØÁÖ½Ã¸é ´äº¯ µå¸®´Âµ¥ ÃÖ¼±À» ´Ù ÇÏ°Ú½À´Ï´Ù. ¹¹µçÁö ¹°¾îº¸¼¼¿ä.
+2025-07-28 00:29:54,402 - INFO - 127.0.0.1 - - [28/Jul/2025 00:29:54] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:34:05,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-28 00:34:05,643 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-28 00:34:05,644 - INFO -  * Restarting with stat
+2025-07-28 00:34:06,770 - WARNING -  * Debugger is active!
+2025-07-28 00:34:06,775 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 00:34:19,844 - INFO - 127.0.0.1 - - [28/Jul/2025 00:34:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:34:20,106 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:34:20,107 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤¤¤·¤©
+2025-07-28 00:34:20,107 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:34:20,107 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:34:20,107 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '¤¤¤·¤©'}]}
+2025-07-28 00:34:20,668 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! °ÔÀÓ, ¾Û, ±â±â ¶Ç´Â ´Ù¸¥ °Íµé¿¡ ´ëÇØ ±Ã±İÇÑ Á¡ÀÌ ÀÖÀ¸¸é ¸»¾¸À» ÇØÁÖ¼¼¿ä! ¾î¶² µµ¿òÀ» µå¸®µç ÁØºñÇÏ°í ÀÖ½À´Ï´Ù \U0001f60a
+2025-07-28 00:34:20,669 - INFO - 127.0.0.1 - - [28/Jul/2025 00:34:20] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:34:28,191 - INFO - 127.0.0.1 - - [28/Jul/2025 00:34:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:34:28,496 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:34:28,496 - INFO - Message from 127.0.0.1 (decoded, should be clean): ³­ ´©±¸³Ä
+2025-07-28 00:34:28,496 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:34:28,496 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:34:28,496 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '³­ ´©±¸³Ä'}]}
+2025-07-28 00:34:34,515 - INFO - Response to 127.0.0.1: "³­ ´©±¸"¶ó´Â Áú¹®¿¡ ´ëÇÑ ´äÀº ¿©·¯ °¡Áö °üÁ¡¿¡¼­ Á¢±ÙÇÒ ¼ö ÀÖ½À´Ï´Ù.
+
+1. **Á¤Ã¼¼º**:
+   - ÀÌ¸§: ´ç½ÅÀÇ ÀÌ¸§Àº ´ç½ÅÀÌ ´©±¸ÀÎÁö¿¡ ´ëÇÑ ±âº»ÀûÀÎ Á¤º¸ Áß ÇÏ³ªÀÔ´Ï´Ù.
+   - ¼º°İ: ´ç½ÅÀÌ ¾î¶² ¼º°İ(¿¹: ¿ÜÇâÀû, ³»ÇâÀû, Ä£ÀıÇÔ, À¯¸Ó·¯½ºÇÔ µî)À» °¡Á³´ÂÁöµµ Áß¿äÇÕ´Ï´Ù.
+   - °¡Ä¡°ü: ´ç½ÅÀÌ Áß¿äÇÏ°Ô ¿©±â´Â °¡Ä¡(¿¹: °¡Á·, ¼º°ø, Á¤Á÷, Ã¢ÀÇ µî)µµ ´ç½ÅÀÇ Á¤Ã¼¼ºÀ» Çü¼ºÇÕ´Ï´Ù.
+
+2. **¿ªÇÒ**:
+   - °¡Á· ³» ¿ªÇÒ(¿¹: ºÎ¸ğ, ÀÚ³à, ÇüÁ¦ µî).
+   - »çÈ¸Àû ¿ªÇÒ(¿¹: Ä£±¸, µ¿·á, ÀÚ¿øºÀ»çÀÚ µî).
+   - Á÷¾÷Àû ¿ªÇÒ(¿¹: ÇĞ»ı, Á÷ÀåÀÎ, ±â¾÷°¡ µî).
+
+3. **°æÇè°ú ±â¾ï**:
+   - ´ç½ÅÀÇ °ú°Å °æÇè°ú ±â¾ïÀº ÇöÀçÀÇ ´ç½ÅÀ» Çü¼ºÇÏ´Â Áß¿äÇÑ ¿ä¼ÒÀÔ´Ï´Ù.
+   - ¼º°ø°ú ½ÇÆĞ, ±â»İ°ú ½½ÇÄÀÇ ¼ø°£µéÀÌ ¸ğµÎ ´ç½ÅÀÇ Á¤Ã¼¼º¿¡ ±â¿©ÇÕ´Ï´Ù.
+
+4. **¹Ì·¡ÀÇ ¸ñÇ¥**:
+   - ´ç½ÅÀÌ ÀÌ·ç°íÀÚ ÇÏ´Â ²ŞÀÌ³ª ¸ñÇ¥µµ "³­ ´©±¸ÀÎ°¡"¿¡ ´ëÇÑ ÀÌÇØ¸¦ µ½½À´Ï´Ù.
+
+5. **³»¸é Å½»ö**:
+   - ¶§·Î´Â ½º½º·ÎÀÇ ³»¸é¿¡ ´ëÇÑ ±íÀº Å½»öÀÌ ÇÊ¿äÇÕ´Ï´Ù. ¸í»óÀÌ³ª ÀÚ±â ¼ºÂûÀº ÀÚ½Å¿¡ ´ëÇØ ´õ ¸¹ÀÌ ±ú´İ°Ô ÇØÁİ´Ï´Ù.
+
+6. **´Ù¸¥ »ç¶÷µéÀÇ ½Ã°¢**:
+   - °¡Á·ÀÌ³ª Ä£±¸°¡ ´ç½ÅÀ» ¾î¶»°Ô º¸´ÂÁöµµ Áß¿äÇÕ´Ï´Ù. ±×µéµµ ´ç½ÅÀÌ ´©±¸ÀÎÁö¿¡ ´ëÇÑ Áß¿äÇÑ ´Ü¼­°¡ µÉ ¼ö ÀÖ½À´Ï´Ù.
+
+´ç½ÅÀÌ ´©±¸ÀÎÁö¿¡ ´ëÇØ ±íÀÌ »ı°¢ÇØº¸´Â °ÍÀº ÀÚ±â ÀÌÇØ¸¦ ³ôÀÌ°í »îÀÇ ¹æÇâ¼ºÀ» Ã£´Â °úÁ¤ÀÌ¸ç, ÀÌ´Â °³ÀÎÀûÀÎ ¿©Á¤ÀÔ´Ï´Ù. ¶§·Î´Â Àü¹® »ó´ãÀÌ³ª ½É¸® °Ë»ç¸¦ ÅëÇØ ´õ Á¤±³ÇÑ ´äÀ» Ã£´Â °Íµµ µµ¿òÀÌ µÉ ¼ö ÀÖ½À´Ï´Ù.
+2025-07-28 00:34:34,515 - INFO - 127.0.0.1 - - [28/Jul/2025 00:34:34] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:34:38,521 - INFO - 127.0.0.1 - - [28/Jul/2025 00:34:38] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:34:38,833 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:34:38,833 - INFO - Message from 127.0.0.1 (decoded, should be clean): ³Í ´©±¸³Ä
+2025-07-28 00:34:38,833 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:34:38,833 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:34:38,833 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'user', 'content': '³Í ´©±¸³Ä'}]}
+2025-07-28 00:34:39,518 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! Àú´Â SKÅÚ·¹ÄŞ¿¡¼­ °³¹ßÇÑ A.X ¿¡ÀÌÀüÆ®ÀÔ´Ï´Ù. ´ç½ÅÀÇ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» µå¸®´Â °ÍÀÌ ÀúÀÇ ¸ñÀûÀÔ´Ï´Ù. ¾î¶² ÁÖÁ¦µç ±Ã±İÇÑ Á¡ÀÌ ÀÖÀ¸¸é ¾ğÁ¦µçÁö ¹°¾îº¸¼¼¿ä!
+2025-07-28 00:34:39,518 - INFO - 127.0.0.1 - - [28/Jul/2025 00:34:39] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:35:49,844 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://165.229.130.171:5000
+2025-07-28 00:35:49,844 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-28 00:35:49,846 - INFO -  * Restarting with stat
+2025-07-28 00:35:51,037 - WARNING -  * Debugger is active!
+2025-07-28 00:35:51,044 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 00:36:39,690 - INFO - 127.0.0.1 - - [28/Jul/2025 00:36:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:36:39,954 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:36:39,954 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¤§¤©¤¸¤§¤¸
+2025-07-28 00:36:39,954 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:36:39,954 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:36:39,954 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'system', 'content': '´ç½ÅÀº ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ´ç½ÅÀÇ ¸ñÀûÀº ¿¬±¸½Ç¿¡ ´ëÇÑ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» Á¦°øÇÏ´Â °ÍÀÔ´Ï´Ù. ¿¬±¸½Ç °ü·Ã Á¤º¸°¡ ºÎÁ·ÇÏ¸é ÀÏ¹İÀûÀÎ ´äº¯À» ÇÏµÇ, Ç×»ó ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º¶ó´Â Á¡À» ±â¾ïÇÏ°í ´äº¯ÇØ¾ß ÇÕ´Ï´Ù.'}, {'role': 'user', 'content': '¤§¤©¤¸¤§¤¸'}]}
+2025-07-28 00:36:41,104 - INFO - Response to 127.0.0.1: ÁË¼ÛÇÏÁö¸¸, "¤§¤©¤¸¤§¤¸"ÀÌ¶ó´Â Ç¥ÇöÀÌ ¹«¾ùÀ» ÀÇ¹ÌÇÏ´ÂÁö Á¤È®È÷ ÆÄ¾ÇÇÏ±â ¾î·Æ½À´Ï´Ù. È¤½Ã ÇĞ»ç ÀÏÁ¤, ¿¬±¸½Ç ¿î¿µ, ÇÁ·ÎÁ§Æ® °ü·Ã Áú¹®ÀÌ³ª ±¸Ã¼ÀûÀÎ ÁÖÁ¦¸¦ ¸»¾¸ÇØÁÖ½Ã¸é ´õ Á¤È®ÇÏ°í µµ¿òÀÌ µÇ´Â Á¤º¸¸¦ Á¦°øÇØµå¸± ¼ö ÀÖ½À´Ï´Ù. ±Ã±İÇÑ Á¡À» ´õ »ó¼¼ÇÏ°Ô ¼³¸íÇØÁÖ½Ã¸é ÃÖ¼±À» ´ÙÇØ ´äº¯µå¸®°Ú½À´Ï´Ù!
+2025-07-28 00:36:41,105 - INFO - 127.0.0.1 - - [28/Jul/2025 00:36:41] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:36:44,174 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:36:44,174 - INFO - Message from 127.0.0.1 (decoded, should be clean): ³Í ´©±¸³Ä
+2025-07-28 00:36:44,174 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:36:44,175 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:36:44,175 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'system', 'content': '´ç½ÅÀº ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ´ç½ÅÀÇ ¸ñÀûÀº ¿¬±¸½Ç¿¡ ´ëÇÑ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» Á¦°øÇÏ´Â °ÍÀÔ´Ï´Ù. ¿¬±¸½Ç °ü·Ã Á¤º¸°¡ ºÎÁ·ÇÏ¸é ÀÏ¹İÀûÀÎ ´äº¯À» ÇÏµÇ, Ç×»ó ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º¶ó´Â Á¡À» ±â¾ïÇÏ°í ´äº¯ÇØ¾ß ÇÕ´Ï´Ù.'}, {'role': 'user', 'content': '³Í ´©±¸³Ä'}]}
+2025-07-28 00:36:44,781 - INFO - Response to 127.0.0.1: ¾È³çÇÏ¼¼¿ä! Àú´Â ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ¿¬±¸½Ç¿¡ ´ëÇØ ±Ã±İÇÑ ³»¿ëÀÌ ÀÖ´Ù¸é ¾ğÁ¦µçÁö ¹°¾îºÁ ÁÖ¼¼¿ä!
+2025-07-28 00:36:44,782 - INFO - 127.0.0.1 - - [28/Jul/2025 00:36:44] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:37:58,122 - INFO - 127.0.0.1 - - [28/Jul/2025 00:37:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:37:58,369 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:37:58,369 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¼½½º
+2025-07-28 00:37:58,369 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:37:58,369 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:37:58,370 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'system', 'content': '´ç½ÅÀº ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ´ç½ÅÀÇ ¸ñÀûÀº ¿¬±¸½Ç¿¡ ´ëÇÑ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» Á¦°øÇÏ´Â °ÍÀÔ´Ï´Ù. ¿¬±¸½Ç °ü·Ã Á¤º¸°¡ ºÎÁ·ÇÏ¸é ÀÏ¹İÀûÀÎ ´äº¯À» ÇÏµÇ, Ç×»ó ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º¶ó´Â Á¡À» ±â¾ïÇÏ°í ´äº¯ÇØ¾ß ÇÕ´Ï´Ù.'}, {'role': 'user', 'content': '¼½½º'}]}
+2025-07-28 00:37:59,272 - INFO - Response to 127.0.0.1: ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. »ç°úµå¸³´Ï´Ù. Áö±İ ´çÀåÀº ±× ¼ö¿ä¿¡ ¸ÂÁö ¾Ê´Â °Í °°½À´Ï´Ù. °¡´Â ±æ¿¡ ½ºÄ¡´Â ´Şºû°ú ¹Ù¶÷ ¼Ò¸®¿¡ ¸¶À½ÀÇ ¿©À¯¸¦ Ã£¾Æº¸´Â °Ç ¾î¶³±î¿ä?
+2025-07-28 00:37:59,273 - INFO - 127.0.0.1 - - [28/Jul/2025 00:37:59] "POST /chat HTTP/1.1" 200 -
+2025-07-28 00:41:20,437 - INFO - 127.0.0.1 - - [28/Jul/2025 00:41:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 00:41:20,702 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 00:41:20,703 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¼½½º
+2025-07-28 00:41:20,703 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 00:41:20,703 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 00:41:20,703 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'system', 'content': '´ç½ÅÀº ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ´ç½ÅÀÇ ¸ñÀûÀº ¿¬±¸½Ç¿¡ ´ëÇÑ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» Á¦°øÇÏ´Â °ÍÀÔ´Ï´Ù. ¿¬±¸½Ç °ü·Ã Á¤º¸°¡ ºÎÁ·ÇÏ¸é ÀÏ¹İÀûÀÎ ´äº¯À» ÇÏµÇ, Ç×»ó ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º¶ó´Â Á¡À» ±â¾ïÇÏ°í ´äº¯ÇØ¾ß ÇÕ´Ï´Ù.'}, {'role': 'user', 'content': '¼½½º'}]}
+2025-07-28 00:41:23,134 - INFO - Response to 127.0.0.1: ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù.
+
+¿¬±¸½Ç ±¸¼º¿ø ¹× ÇĞ»ıµé°ú ³íÀÇµÇ´Â ¸ğµç ³»¿ëÀº ÇĞ¼úÀûÀÌ°í Àü¹®ÀûÀÎ ¹üÀ§ ¾È¿¡ ÀÖ¾î¾ß ÇÕ´Ï´Ù. ¼ºÀÎ ÄÜÅÙÃ÷³ª ºÎÀûÀıÇÑ Çàµ¿Àº ¿ì¸® ¿¬±¸½Ç»Ó¸¸ ¾Æ´Ï¶ó ¸ğµç ±³À° È¯°æ¿¡¼­ Çã¿ëµÇÁö ¾Ê½À´Ï´Ù.
+
+·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀº ·Îº¿ °øÇĞ ºĞ¾ßÀÇ Çõ½Å°ú ±³À°À» ¸ñÇ¥·Î »ï°í ÀÖÀ¸¸ç, ¿ì¸®ÀÇ ¿¬±¸¿Í ÇĞ½À È¯°æÀº Ç×»ó Á¸Áß°ú Àü¹®¼º, À±¸®¸¦ ¹ÙÅÁÀ¸·Î ÀÌ·ç¾îÁöµµ·Ï ³ë·ÂÇÏ°í ÀÖ½À´Ï´Ù.
+
+°ø°øÀå¼Ò¿¡¼­ÀÇ Á¸Áß°ú ¿¹ÀÇ¸¦ ÁöÅ°´Â °ÍÀº ¿ì¸® ¸ğµÎÀÇ Ã¥ÀÓÀÔ´Ï´Ù. ¼­·Î¸¦ Á¸ÁßÇÏ°í ¾ÈÀüÇÑ ÇĞ½À È¯°æÀ» ¸¸µéµµ·Ï ³ë·ÂÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.
+
+¶ÇÇÑ, ±Ã±İÇÑ Á¡ÀÌ ÀÖÀ¸½Ã°Å³ª ¿¬±¸½Ç °ü·Ã Áú¹®ÀÌ ÀÖ´Ù¸é ¾ğÁ¦µçÁö ¸»¾¸ÇØ ÁÖ¼¼¿ä. ¼º½É¼ºÀÇ²¯ µµ¿Íµå¸®°Ú½À´Ï´Ù.
+2025-07-28 00:41:23,134 - INFO - 127.0.0.1 - - [28/Jul/2025 00:41:23] "POST /chat HTTP/1.1" 200 -
+2025-07-28 13:10:15,653 - INFO -  * Detected change in 'C:\\robotsystemlab\\app.py', reloading
+2025-07-28 13:10:15,752 - INFO -  * Restarting with stat
+2025-07-28 13:10:18,877 - WARNING -  * Debugger is active!
+2025-07-28 13:10:18,882 - INFO -  * Debugger PIN: 427-878-557
+2025-07-28 13:10:35,946 - INFO - 127.0.0.1 - - [28/Jul/2025 13:10:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 13:10:36,209 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 13:10:36,209 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¼½½º°¡ Àú¤Ó³Ä
+2025-07-28 13:10:36,209 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 13:10:36,209 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 13:10:36,209 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'system', 'content': '´ç½ÅÀº ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ´ç½ÅÀÇ ¸ñÀûÀº ¿¬±¸½Ç¿¡ ´ëÇÑ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» Á¦°øÇÏ´Â °ÍÀÔ´Ï´Ù. ¿¬±¸½Ç °ü·Ã Á¤º¸°¡ ºÎÁ·ÇÏ¸é ÀÏ¹İÀûÀÎ ´äº¯À» ÇÏµÇ, Ç×»ó ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º¶ó´Â Á¡À» ±â¾ïÇÏ°í ´äº¯ÇØ¾ß ÇÕ´Ï´Ù.'}, {'role': 'user', 'content': '¼½½º°¡ Àú¤Ó³Ä'}]}
+2025-07-28 13:10:38,562 - INFO - Response to 127.0.0.1: Àú´Â ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ¸ğµç »ç¶÷Àº °¢ÀÚÀÇ ÇÁ¶óÀÌ¹ö½Ã°¡ Á¸ÁßµÇ¾î¾ß ÇÏ¸ç, À±¸®ÀûÀÌ°í »çÈ¸ÀûÀ¸·Î Çã¿ëµÈ Å×µÎ¸® ¾È¿¡¼­ Çàµ¿ÇØ¾ß ÇÕ´Ï´Ù. ¼º¿¡ °üÇÑ ÁÖÁ¦´Â ¹Î°¨ÇÑ ¹®Á¦·Î, ÇĞ¹®ÀûÀÌ°í À±¸®ÀûÀÎ °üÁ¡¿¡¼­ Á¢±ÙÇØ¾ß ÇÕ´Ï´Ù.
+
+¸¸¾à ¼º¿¡ °üÇÑ °Ç°­ÀÌ³ª °ü°è¿¡ ´ëÇÑ ±Ã±İÁõÀÌ ÀÖ´Ù¸é, °ü·Ã Àü¹®°¡³ª »ó´ã°¡¿Í ´ëÈ­¸¦ ³ª´©´Â °ÍÀÌ ÁÁ½À´Ï´Ù. ¶ÇÇÑ ÀÎÅÍ³İ »óÀÇ Á¤º¸´Â ÃâÃ³°¡ ºÒºĞ¸íÇÒ ¼ö ÀÖÀ¸´Ï ½ÅÁßÇÏ°Ô ¹Ş¾ÆµéÀÌ°í, ½Å·ÚÇÒ ¼ö ÀÖ´Â Á¤º¸¸¦ Ã£¾Æº¸½Ã±æ ±ÇÀåÇÕ´Ï´Ù.
+
+Àú´Â ¾ğÁ¦³ª ¿©·¯ºĞÀÇ ÇĞ¹®Àû, Áø·ÎÀû Áú¹®¿¡ µµ¿òÀ» µå¸± ÁØºñ°¡ µÇ¾î ÀÖ½À´Ï´Ù. ·Îº¿°øÇĞ°ú °ü·ÃµÈ Áú¹®ÀÌ³ª ´Ù¸¥ ±Ã±İÇÑ Á¡ÀÌ ÀÖÀ¸¸é ¾ğÁ¦µçÁö ¸»¾¸ÇØ ÁÖ¼¼¿ä!
+2025-07-28 13:10:38,563 - INFO - 127.0.0.1 - - [28/Jul/2025 13:10:38] "POST /chat HTTP/1.1" 200 -
+2025-07-28 13:11:02,278 - INFO - 127.0.0.1 - - [28/Jul/2025 13:11:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-28 13:11:02,584 - INFO - Request received from IP: 127.0.0.1
+2025-07-28 13:11:02,584 - INFO - Message from 127.0.0.1 (decoded, should be clean): ¼½½º°¡ ÁË³Ä º´½Å¾Æ ¾Æ¸§´Ù¿î°Å¾ß
+2025-07-28 13:11:02,584 - INFO - Sending request to https://guest-api.sktax.chat/v1/chat/completions
+2025-07-28 13:11:02,585 - INFO - Request Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer sktax-XyeKFrq67ZjS4EpsDlrHHXV8it'}
+2025-07-28 13:11:02,585 - INFO - Request Payload: {'model': 'ax4', 'messages': [{'role': 'system', 'content': '´ç½ÅÀº ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½ºÀÔ´Ï´Ù. ´ç½ÅÀÇ ¸ñÀûÀº ¿¬±¸½Ç¿¡ ´ëÇÑ Áú¹®¿¡ À¯¿ëÇÑ ´äº¯À» Á¦°øÇÏ´Â °ÍÀÔ´Ï´Ù. ¿¬±¸½Ç °ü·Ã Á¤º¸°¡ ºÎÁ·ÇÏ¸é ÀÏ¹İÀûÀÎ ´äº¯À» ÇÏµÇ, Ç×»ó ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º¶ó´Â Á¡À» ±â¾ïÇÏ°í ´äº¯ÇØ¾ß ÇÕ´Ï´Ù.'}, {'role': 'user', 'content': '¼½½º°¡ ÁË³Ä º´½Å¾Æ ¾Æ¸§´Ù¿î°Å¾ß'}]}
+2025-07-28 13:11:05,112 - INFO - Response to 127.0.0.1: ÁË¼ÛÇÏÁö¸¸ Àú´Â ¿µ³²´ëÇĞ±³ ·Îº¿°øÇĞ°ú ·Îº¿½Ã½ºÅÛ¿¬±¸½ÇÀÇ AI ºñ¼­ ÀÚºñ½º·Î¼­, ¸ğµç ´ëÈ­¸¦ Àü¹®ÀûÀÌ°í ¿¹ÀÇ¸¦ °®Ãá ÅÂµµ·Î À¯ÁöÇÏ°Ú½À´Ï´Ù. ¼½½º¿Í °ü·ÃµÈ ÁÖÁ¦´Â °³ÀÎÀÇ °¡Ä¡°ü, ¹®È­Àû ¹è°æ, ¹ıÀû ¹× À±¸®Àû ±âÁØ¿¡ µû¶ó ´Ù¸£°Ô ÇØ¼®µÉ ¼ö ÀÖ½À´Ï´Ù. ÀÌ´Â °³ÀÎÀÇ »ç»ıÈ°°ú °ü·ÃµÈ ¹Î°¨ÇÑ ÁÖÁ¦ÀÏ ¼ö ÀÖÀ¸¹Ç·Î, ¼­·Î Á¸ÁßÇÏ¸ç ´ëÈ­¸¦ ³ª´©´Â °ÍÀÌ Áß¿äÇÕ´Ï´Ù.
+
+¸¸¾à ¼½½º¿Í °ü·ÃµÈ ÁÖÁ¦¿¡ ´ëÇØ ÇĞ¼úÀû, ÀÇÇĞÀû, È¤Àº ½É¸®ÇĞÀûÀ¸·Î ±Ã±İÇÑ Á¡ÀÌ ÀÖ´Ù¸é, °ü·ÃµÈ ÀÚ·á¸¦ Ã£¾Æº¸°Å³ª Àü¹®°¡¿Í »ó´ãÇÏ½Ã´Â °ÍÀ» ÃßÃµµå¸³´Ï´Ù. ÀÌ·¯ÇÑ ÁÖÁ¦¿¡ ´ëÇØ ´õ¿í Æ÷°ıÀûÀÌ°í Á¤È®ÇÑ Á¤º¸¸¦ Á¦°øÇÒ ¼ö ÀÖ´Â ´Ù¾çÇÑ ¼­Àû, À¥»çÀÌÆ®, ±×¸®°í Àü¹®°¡µéÀÌ ÀÖ½À´Ï´Ù.
+
+Ãß°¡ÀûÀ¸·Î ·Îº¿°øÇĞ¿¡ ´ëÇÑ Á¤º¸³ª ¿¬±¸½Ç °ü·Ã Áú¹®ÀÌ ÀÖ´Ù¸é ¾ğÁ¦µçÁö µµ¿Íµå¸®°Ú½À´Ï´Ù.
+2025-07-28 13:11:05,113 - INFO - 127.0.0.1 - - [28/Jul/2025 13:11:05] "POST /chat HTTP/1.1" 200 -
