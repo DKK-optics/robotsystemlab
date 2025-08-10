@@ -175,7 +175,7 @@ const Bubble = styled.div`
   white-space: pre-line;
 `;
 
-const API_ENDPOINT = 'http://localhost:5000/chat'; // 백엔드 서버의 절대 URL로 변경
+const API_ENDPOINT = '/chat'; // 백엔드 서버의 상대 URL로 변경
 
 const personData = {
   '김대근': {
