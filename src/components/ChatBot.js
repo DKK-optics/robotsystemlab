@@ -195,7 +195,7 @@ const personData = {
 function ChatBot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { role: 'assistant', content: '안녕하십니까, 사용자님. 저는 J.A.R.V.I.S.입니다. 무엇을 도와드릴까요? ✨' } // J.A.R.V.I.S. 스타일로 변경
+    { role: 'assistant', content: '안녕하세요! 로봇시스템연구실의 귀여운 AI 비서 로봇나루입니다. 무엇을 도와드릴까요? 🤖' } // 로봇나루 스타일로 변경
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -300,7 +300,7 @@ function ChatBot() {
             exit="exit"
             isChatLoading={isChatLoading} // isChatLoading prop 전달
           >
-            <Header>로봇시스템연구실 AI 비서 자비스</Header>
+            <Header>로봇시스템연구실 AI 비서 로봇나루</Header>
             <Messages>
               {messages.map((m, idx) => (
                 <Bubble key={idx} role={m.role}>{m.content}</Bubble>
