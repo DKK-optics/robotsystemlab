@@ -1,21 +1,28 @@
 {
   "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install && pip install -r requirements.txt",
+  "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "s-maxage=1, stale-while-revalidate" }]
+    }
+  ],
   "builds": [
     {
       "src": "api/index.py",
       "use": "@vercel/python"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "installCommand": "npm install && pip install -r requirements.txt",
-  "buildCommand": "npm run build"
+  ]
 }
