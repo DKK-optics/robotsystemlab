@@ -2,15 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "installCommand": "npm install",
-        "buildCommand": "npm run build",
-        "outputDirectory": "build"
-      }
-    },
-    {
       "src": "api/index.py",
       "use": "@vercel/python",
       "config": {
@@ -20,10 +11,6 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api" },
-    { "src": "/static/(.*)", "dest": "/static/$1" },
-    { "src": "/images/(.*)", "dest": "/images/$1" },
-    { "src": "/favicon.ico", "dest": "/favicon.ico" },
-    { "src": "/manifest.json", "dest": "/manifest.json" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
