@@ -4,14 +4,8 @@
   "installCommand": "npm install && pip install -r requirements.txt",
   "outputDirectory": "build",
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/api/(.*)", "dest": "/api" },
+    { "src": "/(.*)", "dest": "/build/$1" }
   ],
   "headers": [
     {
@@ -20,6 +14,11 @@
     }
   ],
   "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "outputDirectory": "build" }
+    },
     {
       "src": "api/index.py",
       "use": "@vercel/python"
