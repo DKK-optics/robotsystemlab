@@ -3,22 +3,14 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install && pip install -r requirements.txt",
   "outputDirectory": "build",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api"
+      "src": "/api/(.*)",
+      "dest": "/api"
     },
     {
-      "source": "/static/(.*)",
-      "destination": "/static/$1"
-    },
-    {
-      "source": "/(.*\.(?:js|css|map|json|png|jpg|jpeg|gif|svg|ico))",
-      "destination": "/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ],
   "headers": [
