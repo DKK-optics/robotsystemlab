@@ -175,7 +175,7 @@ const Bubble = styled.div`
   white-space: pre-line;
 `;
 
-const API_ENDPOINT = '/chat'; // 백엔드 서버의 상대 URL로 변경
+const API_ENDPOINT = 'https://robotsystemlab-5x7dxkoaw-vance12211-3502s-projects.vercel.app/api'; // Vercel 배포 URL로 변경
 
 const personData = {
   '김대근': {
