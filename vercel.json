@@ -1,7 +1,23 @@
 {
   "version": 2,
+  "installCommand": "npm install && pip install -r requirements.txt",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": ["app.py", "requirements.txt"]
+      }
+    }
+  ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api" },
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/images/(.*)", "dest": "/images/$1" },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
