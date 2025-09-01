@@ -9,6 +9,14 @@
       "destination": "/api"
     },
     {
+      "source": "/static/(.*)",
+      "destination": "/static/$1"
+    },
+    {
+      "source": "/(.*\.(?:js|css|map|json|png|jpg|jpeg|gif|svg|ico))",
+      "destination": "/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
